@@ -1,0 +1,207 @@
+---
+title: Zulma Help Center
+description: Answers about booking, services, payments, cancellations, and joining the Zulma crew — all in one place for Niagara homeowners and cleaners.
+mode: custom
+---
+
+<div className="mx-auto flex w-full max-w-5xl flex-col gap-14 px-4 py-12 lg:py-16">
+  <div className="flex flex-col items-center gap-12">
+    <div className="flex w-full max-w-lg flex-col gap-1">
+      <h1 className="text-center text-4xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
+        How can we help?
+      </h1>
+      <p className="text-center text-balance text-base text-gray-600 dark:text-gray-400 mt-2">
+        Find answers about booking, services, payments, and joining the Zulma crew — all in one place.
+      </p>
+    </div>
+
+    <div className="flex w-full max-w-lg flex-col gap-4">
+      <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:items-stretch">
+        <div className="kb-search-entry min-w-0 w-full flex-1">
+          <button
+            type="button"
+            data-search-trigger
+            className="pointer-events-auto flex h-11 w-full cursor-pointer items-center justify-between gap-2 truncate rounded-full bg-gray-50 pl-4 pr-3 text-left text-sm font-normal leading-6 text-gray-500 shadow-none hover:text-gray-500 ring-1 ring-gray-100 hover:ring-gray-200 dark:bg-white/[0.04] dark:text-white/50 dark:hover:text-white/50 dark:ring-1 dark:ring-white/[0.08] dark:hover:ring-white/15"
+          >
+            <div className="flex min-w-0 flex-1 items-center gap-2">
+              <Icon
+                icon="search"
+                size={14}
+                className="shrink-0 text-gray-700 dark:text-gray-400"
+              />
+              <div className="min-w-0 truncate font-normal text-gray-500 hover:text-gray-500 dark:text-white/50 dark:hover:text-white/50">
+                Search for articles
+              </div>
+            </div>
+            <span className="flex-none text-xs font-semibold text-gray-500 hover:text-gray-500 dark:text-white/50 dark:hover:text-white/50">
+              ⌘K
+            </span>
+          </button>
+        </div>
+
+        <button
+          type="button"
+          id="custom-homepage-assistant-entry"
+          data-assistant-trigger
+          aria-label="Ask AI"
+          className="group/ai flex pointer-events-auto h-11 w-full shrink-0 cursor-pointer flex-row items-center justify-center gap-1.5 rounded-full bg-gray-50 px-4 text-sm font-normal leading-6 text-gray-500 shadow-none ring-1 ring-gray-100 hover:text-gray-600 hover:ring-gray-200 dark:bg-white/[0.04] dark:text-white/50 dark:ring-1 dark:ring-white/[0.08] dark:hover:text-white/70 dark:hover:ring-white/15 sm:w-auto"
+        >
+          <Icon
+            icon="sparkles"
+            size={16}
+            className="shrink-0 text-gray-700 group-hover/ai:text-gray-800 dark:text-gray-400 dark:group-hover/ai:text-gray-200"
+          />
+          <span className="whitespace-nowrap text-gray-500 dark:text-white/50">Ask AI</span>
+        </button>
+      </div>
+
+      <div className="flex flex-wrap items-center justify-center gap-3 text-sm text-gray-500 dark:text-gray-400">
+        <span>Popular searches</span>
+        <div className="flex flex-wrap justify-center gap-1">
+          {['booking', 'recurring', 'payments'].map((term) => (
+            <button
+              key={term}
+              type="button"
+              data-popular-search
+              data-term={term}
+              className="rounded-md bg-gray-100 px-1.5 py-1 font-mono text-xs font-bold uppercase tracking-tight text-gray-600 transition hover:bg-gray-200 dark:bg-white/10 dark:text-gray-300 dark:hover:bg-white/15"
+            >
+              {term.toUpperCase()}
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div className="flex flex-col gap-4">
+    <h3 className="text-base font-medium text-gray-900 dark:text-gray-50">Featured guides</h3>
+    <Columns cols={3}>
+      <Card
+        horizontal
+        icon="rocket"
+        iconType="light"
+        title="Get started"
+        href="/introduction"
+      >
+        How Zulma works, service area, and booking your first clean
+      </Card>
+      <Card horizontal icon="calendar" iconType="light" title="Booking guides" href="/booking/how-to-book">
+        One-time and recurring bookings, add-ons, and cancellations
+      </Card>
+      <Card horizontal icon="shield-check" iconType="light" title="Trust & safety" href="/trust/vetting">
+        Vetting standards, insurance coverage, and satisfaction guarantee
+      </Card>
+    </Columns>
+  </div>
+
+  ---
+
+  <div className="flex flex-col gap-4">
+    <h3 className="text-base font-medium text-gray-900 dark:text-gray-50">All guides</h3>
+    <Columns cols={3}>
+    <Card
+      title="Services"
+      icon="sparkles"
+      iconType="light"
+      href="/services/overview"
+      cta="6 articles"
+    >
+      Standard, deep, move-in/out, post-construction, and lawn care
+    </Card>
+    <Card
+      title="Booking"
+      icon="calendar-check"
+      iconType="light"
+      href="/booking/how-to-book"
+      cta="4 articles"
+    >
+      How to book, recurring schedules, add-ons, and cancellations
+    </Card>
+    <Card
+      title="Account"
+      icon="circle-user"
+      iconType="light"
+      href="/account/overview"
+      cta="4 articles"
+    >
+      Payments, credits, disputes, and account settings
+    </Card>
+    <Card
+      title="Trust & Safety"
+      icon="shield-check"
+      iconType="light"
+      href="/trust/vetting"
+      cta="3 articles"
+    >
+      Crew vetting, insurance, and common questions
+    </Card>
+    <Card
+      title="Join as a cleaner"
+      icon="briefcase"
+      iconType="light"
+      href="/cleaners/overview"
+      cta="5 articles"
+    >
+      Requirements, application process, pay, and bonuses
+    </Card>
+    <Card
+      title="Lawn care"
+      icon="leaf"
+      iconType="light"
+      href="/services/lawn-care"
+      cta="1 article"
+    >
+      Mowing, spring and fall cleanups, and hedge trimming
+    </Card>
+    </Columns>
+  </div>
+
+  ---
+
+  <div className="flex flex-col gap-2">
+    <h3 className="text-base font-medium text-gray-900 dark:text-gray-50">Suggested articles</h3>
+    <p className="text-base text-gray-600 dark:text-gray-400">
+      Popular starting points from the Zulma Help Center
+    </p>
+  </div>
+
+  <Columns cols={2} className="suggested-articles">
+    <Card
+      title="How to book your first clean"
+      icon="calendar-plus"
+      iconType="light"
+      href="/booking/how-to-book"
+      cta="Read article"
+    >
+      Pick a service, configure your home details, and confirm in under a minute.
+    </Card>
+    <Card
+      title="Set up recurring cleaning"
+      icon="repeat"
+      iconType="light"
+      href="/booking/recurring"
+      cta="Read article"
+    >
+      Save up to 20% and never think about booking again with weekly, biweekly, or monthly schedules.
+    </Card>
+    <Card
+      title="Cancellation policy"
+      icon="calendar-x"
+      iconType="light"
+      href="/booking/cancellation"
+      cta="Read article"
+    >
+      Understand the cancellation windows and when fees apply.
+    </Card>
+    <Card
+      title="Become a Zulma cleaner"
+      icon="user-plus"
+      iconType="light"
+      href="/cleaners/apply"
+      cta="Read article"
+    >
+      Apply in 5 minutes and earn within 48 hours of approval.
+    </Card>
+  </Columns>
+</div>

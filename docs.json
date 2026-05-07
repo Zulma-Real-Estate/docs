@@ -1,0 +1,108 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "Zulma Help Center",
+  "description": "Guides, service details, and support for Zulma customers and crew members across the Niagara region.",
+  "colors": {
+    "primary": "#ebe3cd",
+    "light": "#7a746c",
+    "dark": "#0c0c0c"
+  },
+  "favicon": "https://media.brand.dev/9d8aa190-855d-4b76-b09c-725c2478e64b.svg",
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "contextual": {
+    "options": ["copy", "view", "assistant"]
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "For Customers",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "how-it-works",
+              "service-area"
+            ]
+          },
+          {
+            "group": "Services",
+            "pages": [
+              "services/overview",
+              "services/standard-clean",
+              "services/deep-clean",
+              "services/move-in-out",
+              "services/post-construction",
+              "services/lawn-care"
+            ]
+          },
+          {
+            "group": "Booking",
+            "pages": [
+              "booking/how-to-book",
+              "booking/recurring",
+              "booking/add-ons",
+              "booking/cancellation"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "account/overview",
+              "account/payments",
+              "account/credits",
+              "account/disputes"
+            ]
+          },
+          {
+            "group": "Trust & Safety",
+            "pages": [
+              "trust/vetting",
+              "trust/insurance",
+              "trust/faq"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "For Cleaners",
+        "groups": [
+          {
+            "group": "Join Zulma",
+            "pages": [
+              "cleaners/overview",
+              "cleaners/requirements",
+              "cleaners/apply"
+            ]
+          },
+          {
+            "group": "Earnings",
+            "pages": [
+              "cleaners/how-pay-works",
+              "cleaners/bonuses"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Contact us",
+        "href": "mailto:hello@zulma.ca"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Book a service",
+      "href": "https://app.zulma.ca/configure"
+    }
+  }
+}

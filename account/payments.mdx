@@ -1,0 +1,48 @@
+---
+title: "Payment methods, billing, and HST receipts on Zulma"
+description: "How Zulma handles card pre-authorization, supported cards, PCI-DSS compliance, tips, HST receipts, and managing saved payment methods."
+---
+
+Zulma keeps billing straightforward: prices are shown in Canadian dollars, HST (13%) is itemized on every quote before you confirm, and there are no hidden fees. Here is how payment works from the moment you book to the receipt in your inbox.
+
+## How payment works
+
+Zulma supports two payment models, clearly labelled at checkout.
+
+**Card pre-authorization** (default when card payments are enabled) — when you confirm a booking, your card is pre-authorized for the quoted amount. No charge is captured until a crew member accepts the job. If no crew member accepts in time, the hold is fully released and nothing is charged to your account.
+
+**Pay on completion** (current beta default) — no card on file is required. You settle directly with the crew member after the visit, by cash, e-transfer, or invoice.
+
+<Note>
+  During the beta, pay on completion is the default payment model. Card pre-authorization is available when you add a card to your account. Both options are clearly labelled at checkout.
+</Note>
+
+## Supported cards
+
+Zulma accepts Visa, Mastercard, and American Express — all major Canadian and international cards.
+
+## Security and PCI-DSS compliance
+
+Card data is handled entirely by [Stripe](https://stripe.com), a PCI-DSS certified payment processor. Zulma never sees your full card number. Only a tokenized reference is stored on your account. You can add, remove, or change your default card at any time from **Account → Payments** without re-entering your details everywhere.
+
+## Managing saved cards
+
+Go to **Account → Payments** to:
+
+- Add a new card
+- Remove a saved card
+- Set a different card as your default
+
+You can save multiple cards and switch between them at checkout.
+
+## Tips
+
+Tips are entirely optional. When you add a tip through Zulma, 100% of the amount goes directly to the crew member who performed the work. Zulma takes no portion of any tip.
+
+<Note>
+  Tips are settled separately from the base service price and are not refundable once paid.
+</Note>
+
+## Receipts
+
+A receipt is issued after every completed booking. Receipts are CRA-compliant and itemize HST (13%) so you have proper documentation for your records. Recurring booking prices are locked at the agreed per-visit rate for the duration of your schedule, subject to any service-area-wide rate adjustments communicated at least 30 days in advance.

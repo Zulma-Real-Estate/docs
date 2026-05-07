@@ -1,0 +1,105 @@
+{
+  "projectType": "saas",
+  "projectName": "Zulma",
+  "projectDescription": "On-demand residential cleaning and lawn care platform connecting Niagara homeowners with vetted, insured crew members.",
+  "theme": "almond",
+  "primaryColor": "#ebe3cd",
+  "lightColor": "#7a746c",
+  "darkColor": "#0c0c0c",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "For Customers",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "how-it-works",
+              "service-area"
+            ]
+          },
+          {
+            "group": "Services",
+            "pages": [
+              "services/overview",
+              "services/standard-clean",
+              "services/deep-clean",
+              "services/move-in-out",
+              "services/post-construction",
+              "services/lawn-care"
+            ]
+          },
+          {
+            "group": "Booking",
+            "pages": [
+              "booking/how-to-book",
+              "booking/recurring",
+              "booking/add-ons",
+              "booking/cancellation"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "account/overview",
+              "account/payments",
+              "account/credits",
+              "account/disputes"
+            ]
+          },
+          {
+            "group": "Trust & Safety",
+            "pages": [
+              "trust/vetting",
+              "trust/insurance",
+              "trust/faq"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "For Cleaners",
+        "groups": [
+          {
+            "group": "Join Zulma",
+            "pages": [
+              "cleaners/overview",
+              "cleaners/requirements",
+              "cleaners/apply"
+            ]
+          },
+          {
+            "group": "Earnings",
+            "pages": [
+              "cleaners/how-pay-works",
+              "cleaners/bonuses"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Same-day booking with 30-second average match time",
+    "Vetted, insured crew members (vulnerable-sector background checks + WHMIS certified)",
+    "$2M Commercial General Liability insurance on every booking",
+    "Transparent pricing with HST shown before confirmation",
+    "Recurring schedules (weekly, biweekly, monthly) with up to 20% off",
+    "Favorite cleaners for consistent recurring service",
+    "100% satisfaction re-clean guarantee within 24 hours",
+    "Card pre-authorization — only charged when a cleaner accepts",
+    "Commercial cleaning for offices, restaurants, retail, medical, and salons",
+    "Lawn care services: mowing, spring/fall cleanup, hedge trimming"
+  ],
+  "publicApiSurface": [
+    "Book a service: /configure?service={service-slug}",
+    "Set up recurring: /account/recurring/new",
+    "Manage bookings: /account/bookings",
+    "Manage payments: /account/payments",
+    "File a dispute: /account/disputes",
+    "Become a cleaner: /become-a-cleaner",
+    "Commercial quote: /commercial/book",
+    "Help center: /help"
+  ]
+}
