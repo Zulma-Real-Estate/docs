@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
   "name": "Zulma Help Center",
-  "description": "Guides, service details, and support for Zulma customers and crew members across the Niagara region.",
+  "description": "Guides, service details, and support for Zulma customers, businesses, hosts, and crew across the Niagara region.",
   "colors": {
     "primary": "#ebe3cd",
     "light": "#7a746c",
@@ -39,7 +39,9 @@
               "services/deep-clean",
               "services/move-in-out",
               "services/post-construction",
-              "services/lawn-care"
+              "services/lawn-care",
+              "services/car-detailing",
+              "services/laundry"
             ]
           },
           {
@@ -49,6 +51,12 @@
               "booking/recurring",
               "booking/add-ons",
               "booking/cancellation"
+            ]
+          },
+          {
+            "group": "Memberships",
+            "pages": [
+              "memberships/plans-and-perks"
             ]
           },
           {
@@ -66,6 +74,40 @@
               "trust/vetting",
               "trust/insurance",
               "trust/faq"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "For Businesses",
+        "groups": [
+          {
+            "group": "Commercial cleaning",
+            "pages": [
+              "commercial/getting-a-quote",
+              "commercial/service-tiers",
+              "commercial/billing"
+            ]
+          },
+          {
+            "group": "Apex",
+            "pages": [
+              "commercial/apex"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "For Hosts",
+        "groups": [
+          {
+            "group": "Short-term rentals",
+            "pages": [
+              "hosts/overview",
+              "hosts/how-turnovers-work",
+              "hosts/laundry-tiers",
+              "hosts/pricing",
+              "hosts/getting-started"
             ]
           }
         ]

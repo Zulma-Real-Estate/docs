@@ -1,29 +1,29 @@
 ---
-title: "Payment methods, billing, and HST receipts on Zulma"
-description: "How Zulma handles card pre-authorization, supported cards, PCI-DSS compliance, tips, HST receipts, and managing saved payment methods."
+title: "Payment methods and billing on Zulma"
+description: "How Zulma handles card holds and capture, supported cards, security via Stripe, tips, promo codes, and managing your saved payment methods."
 ---
 
-Zulma keeps billing straightforward: prices are shown in Canadian dollars, HST (13%) is itemized on every quote before you confirm, and there are no hidden fees. Here is how payment works from the moment you book to the receipt in your inbox.
+Zulma keeps billing straightforward. Your price is all-in: the number you see at checkout is the number you pay. Zulma isn't charging sales tax during launch, so there's no tax line to puzzle over. Here is how payment works from the moment you book to the moment a job is done.
 
 ## How payment works
 
-Zulma supports two payment models, clearly labelled at checkout.
+When you confirm a booking, your card is placed on hold for the quoted amount. That hold reserves the funds but doesn't charge you yet.
 
-**Card pre-authorization** (default when card payments are enabled) — when you confirm a booking, your card is pre-authorized for the quoted amount. No charge is captured until a crew member accepts the job. If no crew member accepts in time, the hold is fully released and nothing is charged to your account.
+We only capture the payment after your Pro marks the job complete. So you're charged for work that actually happened, at the price you agreed to.
 
-**Pay on completion** (current beta default) — no card on file is required. You settle directly with the crew member after the visit, by cash, e-transfer, or invoice.
+If a booking doesn't go ahead (for example, no Pro is matched in time, or you cancel before any charge applies), the pre-service hold is released and nothing is captured. Released holds typically clear from your statement within 1–7 business days, depending on your bank.
 
 <Note>
-  During the beta, pay on completion is the default payment model. Card pre-authorization is available when you add a card to your account. Both options are clearly labelled at checkout.
+  A hold is not a charge. It sets the funds aside; capture happens after your Pro completes the visit. A released hold simply drops off your statement, nothing is taken.
 </Note>
 
 ## Supported cards
 
-Zulma accepts Visa, Mastercard, and American Express — all major Canadian and international cards.
+Zulma accepts Visa, Mastercard, and American Express, including major Canadian and international cards.
 
-## Security and PCI-DSS compliance
+## Security
 
-Card data is handled entirely by [Stripe](https://stripe.com), a PCI-DSS certified payment processor. Zulma never sees your full card number. Only a tokenized reference is stored on your account. You can add, remove, or change your default card at any time from **Account → Payments** without re-entering your details everywhere.
+Card data is handled entirely by [Stripe](https://stripe.com), a certified payment processor. Zulma never sees your full card number. Only a secure tokenized reference is saved to your account. You can add, remove, or change your default card at any time from **Account → Payments** without re-entering your details everywhere.
 
 ## Managing saved cards
 
@@ -35,14 +35,26 @@ Go to **Account → Payments** to:
 
 You can save multiple cards and switch between them at checkout.
 
+## Promo codes
+
+Have a promo code? Enter it at checkout. The discount applies to your quote before your card is placed on hold, so the held and captured amount already reflects it.
+
 ## Tips
 
-Tips are entirely optional. When you add a tip through Zulma, 100% of the amount goes directly to the crew member who performed the work. Zulma takes no portion of any tip.
+Tips are entirely optional and default to nothing. When you add a tip, **100% of it goes to the Pro** who did the work. Zulma takes no portion of any tip.
 
-<Note>
-  Tips are settled separately from the base service price and are not refundable once paid.
-</Note>
+You can add or adjust a tip from the moment your booking is accepted up to one hour after the job is marked complete, so there's no pressure to decide in the moment. Your Pro is never told whether or how much you tipped.
 
-## Receipts
+## Credits and adjustments
 
-A receipt is issued after every completed booking. Receipts are CRA-compliant and itemize HST (13%) so you have proper documentation for your records. Recurring booking prices are locked at the agreed per-visit rate for the duration of your schedule, subject to any service-area-wide rate adjustments communicated at least 30 days in advance.
+If something isn't right with a clean, our remedy is a re-clean or a Zulma credit rather than a cash refund. Credits sit in your account and apply automatically to your next booking. See [Credits](/account/credits) for how the balance works, and [Disputes](/account/disputes) if you need to flag an issue.
+
+## Memberships
+
+If you're on **Zulma+** or **Zulma Household**, membership perks like cashback credit and waived fees are reflected in your billing automatically. See [Memberships](/memberships/plans-and-perks) for the details.
+
+## Recurring bookings
+
+For recurring schedules, each visit is held and captured the same way: a hold when the visit is confirmed, capture after your Pro completes it. Your agreed per-visit price stays consistent for the duration of your schedule, subject to any service-area-wide rate change communicated at least 30 days in advance.
+
+Need a hand with a charge or a saved card? Email [support@zulma.ca](mailto:support@zulma.ca) and we'll reply within one business day.
