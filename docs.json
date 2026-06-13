@@ -25,11 +25,7 @@
         "groups": [
           {
             "group": "Get Started",
-            "pages": [
-              "introduction",
-              "how-it-works",
-              "service-area"
-            ]
+            "pages": ["introduction", "how-it-works", "service-area"]
           },
           {
             "group": "Services",
@@ -39,6 +35,7 @@
               "services/deep-clean",
               "services/move-in-out",
               "services/post-construction",
+              "services/by-room",
               "services/lawn-care",
               "services/car-detailing",
               "services/laundry"
@@ -55,9 +52,7 @@
           },
           {
             "group": "Memberships",
-            "pages": [
-              "memberships/plans-and-perks"
-            ]
+            "pages": ["memberships/plans-and-perks"]
           },
           {
             "group": "Account",
@@ -70,11 +65,7 @@
           },
           {
             "group": "Trust & Safety",
-            "pages": [
-              "trust/vetting",
-              "trust/insurance",
-              "trust/faq"
-            ]
+            "pages": ["trust/vetting", "trust/insurance", "trust/faq"]
           }
         ]
       },
@@ -84,16 +75,20 @@
           {
             "group": "Commercial cleaning",
             "pages": [
+              "commercial/overview",
               "commercial/getting-a-quote",
+              "commercial/whats-included",
               "commercial/service-tiers",
-              "commercial/billing"
+              "commercial/supplies-and-access",
+              "commercial/quality-and-compliance",
+              "commercial/contracts",
+              "commercial/billing",
+              "commercial/faq"
             ]
           },
           {
             "group": "Apex",
-            "pages": [
-              "commercial/apex"
-            ]
+            "pages": ["commercial/apex"]
           }
         ]
       },
@@ -101,14 +96,27 @@
         "tab": "For Hosts",
         "groups": [
           {
-            "group": "Short-term rentals",
+            "group": "Getting started",
             "pages": [
               "hosts/overview",
-              "hosts/how-turnovers-work",
-              "hosts/laundry-tiers",
-              "hosts/pricing",
-              "hosts/getting-started"
+              "hosts/getting-started",
+              "hosts/calendar-setup",
+              "hosts/multi-property"
             ]
+          },
+          {
+            "group": "Your turnovers",
+            "pages": [
+              "hosts/how-turnovers-work",
+              "hosts/whats-included",
+              "hosts/laundry-tiers",
+              "hosts/supplies-and-linen",
+              "hosts/photo-proof-and-issues"
+            ]
+          },
+          {
+            "group": "Pricing & billing",
+            "pages": ["hosts/pricing", "hosts/billing", "hosts/faq"]
           }
         ]
       },
@@ -120,15 +128,30 @@
             "pages": [
               "cleaners/overview",
               "cleaners/requirements",
-              "cleaners/apply"
+              "cleaners/apply",
+              "cleaners/identity-and-checks",
+              "cleaners/insurance"
+            ]
+          },
+          {
+            "group": "On the job",
+            "pages": [
+              "cleaners/getting-your-first-job",
+              "cleaners/on-the-job",
+              "cleaners/cancellations"
             ]
           },
           {
             "group": "Earnings",
             "pages": [
               "cleaners/how-pay-works",
+              "cleaners/taxes-and-payouts",
               "cleaners/bonuses"
             ]
+          },
+          {
+            "group": "Help",
+            "pages": ["cleaners/faq"]
           }
         ]
       }

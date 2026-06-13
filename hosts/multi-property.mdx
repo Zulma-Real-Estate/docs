@@ -1,0 +1,122 @@
+---
+title: "Managing Multiple Properties"
+description: "Run every short-term rental you host from one Zulma account, with its own feeds, laundry tier, default times, access, billing, and attestations per property."
+---
+
+One Zulma host account manages as many properties as you list. Add a downtown condo, a lakeside cottage, and a guest suite to the same login, and each one keeps its own settings. Nothing is shared by accident.
+
+## One account, many properties
+
+You sign in once. Each property you add carries its own configuration so a turn at one address never picks up the wrong calendar, the wrong linen plan, or the wrong access notes.
+
+Every property holds its own:
+
+| Setting | What it controls |
+|---|---|
+| Calendar feeds | The iCal links Zulma reads to know when guests check out. One or more feeds per property. |
+| Laundry tier | L1, L2, or L3 for that unit (see [laundry tiers](/hosts/laundry-tiers)). |
+| Default check-in / check-out times | The times Zulma uses to flag same-day turns, since calendars do not carry them. |
+| Access instructions | How the Pro gets in (lockbox, smart lock, code, key), surfaced to the assigned Pro for that turn. |
+| Billing mode | Per-turn or managed-monthly, set per property (see [billing](/hosts/billing)). |
+| Attestations | Your authority to list, any municipal STR licence, and adequate insurance for that address. |
+
+<Tip>
+Settings are per property, not per account. Changing the laundry tier or default times on one unit never touches the others.
+</Tip>
+
+## Adding a property
+
+<Steps>
+  <Step title="Create the property profile">
+    Give the property a name you will recognize and enter its address. This is what you will see across your dashboard, so make it specific (for example "Lakeshore Cottage" rather than "Unit 2").
+  </Step>
+  <Step title="Connect its calendar feeds">
+    Paste the read-only iCal link from each listing platform for this property. A single unit can have more than one feed (for example the same place listed on Airbnb and Vrbo), and Zulma de-duplicates them so a turn is generated once per checkout date. See [calendar setup](/hosts/calendar-setup) for where to find each link.
+  </Step>
+  <Step title="Set default check-in and check-out times">
+    Calendars carry the dates but not the times, so enter this property's checkout and check-in times (for example 11 AM checkout, 3 PM check-in). Zulma uses them to flag a same-day turn when a checkout and the next check-in land on the same date.
+  </Step>
+  <Step title="Choose the laundry tier">
+    Pick L1, L2, or L3 for this unit. L2 and L3 require in-unit laundry and 3 par sets of linen kept on site. Read [laundry tiers](/hosts/laundry-tiers) before you decide.
+  </Step>
+  <Step title="Add access instructions">
+    Record how the Pro gets in and out. These notes are surfaced to the Pro assigned to that property's turns.
+  </Step>
+  <Step title="Pick a billing mode">
+    Set per-turn or managed-monthly for this property. Modes are independent, so one unit can bill per turn while another bills monthly. See [billing](/hosts/billing).
+  </Step>
+  <Step title="Complete the attestations">
+    Confirm your authority to list, any required municipal STR licence, and adequate insurance for this address. The property goes active only after this step.
+  </Step>
+</Steps>
+
+<Note>
+New to hosting with Zulma? Start with [getting started](/hosts/getting-started) to set up your account, then come back here to add each property.
+</Note>
+
+## A property goes active only after its attestations
+
+Each property has to pass its own attestations before Zulma will generate turns for it. You complete them per address, not once for the whole account.
+
+You attest to three things:
+
+- **Authority to list.** You own the property or are authorized to arrange cleaning for it.
+- **Municipal STR licence.** Any short-term rental licence your municipality requires is in place.
+- **Adequate insurance.** You carry coverage appropriate for hosting this unit.
+
+<Warning>
+A property stays inactive until its attestations are complete. No turns are generated for it, even if its calendar feeds are already connected. Finish the attestations to switch it on.
+</Warning>
+
+<Info>
+Attestations are per property. Adding a new unit means a fresh set for that address, since licence requirements and coverage can differ from one property to the next.
+</Info>
+
+## Mixing settings across your portfolio
+
+Because everything is set per property, your portfolio can look however your real operation looks. For example:
+
+- A high-turnover city condo on **per-turn billing** with **L3 laundry**, and a slower seasonal cottage on **managed-monthly** with **L1**.
+- One listing synced from a single Airbnb feed, another pulling from **Airbnb plus Vrbo** at the same time.
+- Different check-in and check-out times per unit, so same-day turns are flagged correctly for each.
+
+Each property's turns are generated on a rolling 4 to 6 week window from its own connected calendars.
+
+## What stays shared
+
+A few things live at the account level, not the property level:
+
+- Your login and host profile.
+- Your payment method on file (each property's billing mode decides how and when it is charged).
+- Your notification preferences for guest-ready alerts and issue flags.
+
+## Questions
+
+<AccordionGroup>
+  <Accordion title="Is there a limit on how many properties I can add?">
+    No. One account manages as many properties as you host. Each is configured and activated on its own.
+  </Accordion>
+  <Accordion title="Can different properties use different laundry tiers?">
+    Yes. Laundry tier is set per property. One unit can be L3 while another is L1. See [laundry tiers](/hosts/laundry-tiers).
+  </Accordion>
+  <Accordion title="Can I bill some properties per turn and others monthly?">
+    Yes. Billing mode is chosen per property and the two modes run independently. See [billing](/hosts/billing).
+  </Accordion>
+  <Accordion title="Do I redo my attestations for every property?">
+    Yes. Authority to list, any municipal STR licence, and adequate insurance are attested per address, because requirements can differ between properties. A property goes active only once its attestations are complete.
+  </Accordion>
+  <Accordion title="Can one property pull from more than one calendar?">
+    Yes. Add a feed for each platform the unit is listed on. Zulma de-duplicates overlapping feeds so a turn is generated once per checkout date. See [calendar setup](/hosts/calendar-setup).
+  </Accordion>
+</AccordionGroup>
+
+<CardGroup cols={2}>
+  <Card title="Getting started" icon="key-round" href="/hosts/getting-started">
+    Set up your host account and add your first property.
+  </Card>
+  <Card title="Billing" icon="wallet" href="/hosts/billing">
+    Per-turn and managed-monthly billing, set per property.
+  </Card>
+</CardGroup>
+
+Need a hand setting up a portfolio? Email <a href="mailto:hello@zulma.ca">hello@zulma.ca</a>.

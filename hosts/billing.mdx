@@ -1,0 +1,129 @@
+---
+title: Host billing
+description: How Zulma for Hosts charges for turnovers. Per-turn vs managed-monthly, the same-day surge, cancellation fees, automatic iCal reconciliation, and tax-free launch pricing.
+---
+
+Billing for Zulma for Hosts is built around one event: the turnover. You pick how you want to pay (per turn, or once a month), and the charge follows your calendar automatically. There's nothing to invoice, nothing to chase, and no quote step for a standard turn. This page covers exactly when money moves, the two billing modes, the surge and cancellation fees, and how calendar changes are handled.
+
+<Info>
+  Billing here is for **Zulma for Hosts** (short-term-rental turnovers), live in **Niagara Falls** and **Niagara-on-the-Lake** at launch. For how each turn is priced, see [host pricing](/hosts/pricing). New to the service? Start with the [hosts overview](/hosts/overview).
+</Info>
+
+## Two ways to pay
+
+You choose a billing mode per property. Both bill from the same turnovers Zulma generates off your calendar. The difference is timing.
+
+| Mode | When you're charged | Best for |
+|---|---|---|
+| **Per-turn** (default) | Your card is pre-authorized when the turn is generated, then captured when the unit is marked guest-ready | Most hosts, especially single properties or occasional turns |
+| **Managed-monthly** | Turns accrue all month and you're billed once, in arrears, at month end | Higher-volume hosts who'd rather settle once |
+
+### Per-turn billing
+
+Per-turn is the default and the simplest to follow.
+
+<Steps>
+  <Step title="A turn is generated">
+    When a checkout lands on your calendar, Zulma creates the turnover and **pre-authorizes your card** for that turn's price. This is a hold, not a charge.
+  </Step>
+  <Step title="The Pro completes the turn">
+    Your assigned Pro cleans and resets the unit, then uploads the before/after photos.
+  </Step>
+  <Step title="The unit is marked guest-ready">
+    When the turn passes the checklist and the photos upload, the hold is **captured** as the actual charge. You get your "guest-ready" notification with the photo set at the same time.
+  </Step>
+</Steps>
+
+<Note>
+  If a turn never happens (a booking cancels, or the turn can't be completed), the pre-authorization is simply released. You're only charged when a unit is actually made guest-ready.
+</Note>
+
+### Managed-monthly billing
+
+On managed-monthly, individual turns don't hit your card one at a time. Instead:
+
+- Every turnover for the property accrues through the month.
+- At month end, you're billed once, in arrears, for everything that ran.
+- The rate is set by the commitment tier your **actual volume earned** that month (0% / 12% / 20% / 28% off). You're never locked to a tier you didn't use.
+- There is **no committed minimum.** A quiet month bills only the turns that actually happened.
+
+<Tip>
+  Managed-monthly is a convenience for hosts running a lot of turns. It doesn't change the price of any turn. It just settles them together at month end instead of one by one.
+</Tip>
+
+## Same-day surge
+
+When a guest checks out and another checks in on the **same calendar day**, that turn carries a tight window and adds a **+25% surge** on top of the turn price. Zulma flags same-day turns automatically from your calendar, so you'll always see one coming before it runs. The surge applies the same way in both billing modes. Full pricing detail is on the [host pricing](/hosts/pricing) page.
+
+## Cancellation fees
+
+Plans change, and the fee depends on how far along the turn is when you cancel.
+
+| When you cancel | Fee | Goes to |
+|---|---|---|
+| **Before the Pro is on the way** | **$0** | Free, the turn is simply called off |
+| **After the Pro is en route** (late cancel) | **$45** | The Pro |
+| **Pro arrives but can't complete** (no access, unit still occupied, unit trashed) | **$35** trip fee | The Pro |
+
+<Warning>
+  The late-cancel and can't-complete fees are paid to the Pro for the time and travel they've already committed. Cancel before your Pro sets out and there's no fee at all.
+</Warning>
+
+## Calendar changes reconcile automatically
+
+You don't have to tell Zulma when a booking moves or cancels. Because turns are generated from your linked iCal feed, a changed calendar reconciles on its own.
+
+- When a booking is **moved or cancelled** on Airbnb, Vrbo, or Booking.com, the change flows through on the **next poll** (Zulma polls every 30–60 minutes).
+- A turn that's no longer needed is dropped, and any pre-authorization on it is released.
+- A new or shifted checkout becomes a new turn on the rolling schedule.
+
+<Info>
+  This is why a per-turn pre-authorization is a hold rather than an immediate charge. It gives the calendar room to change before any money is actually captured.
+</Info>
+
+## No sales tax during launch
+
+Zulma isn't charging sales tax during launch. The turnover price you see, including any surge or laundry add-on, is all-in.
+
+## Good to know
+
+<AccordionGroup>
+  <Accordion title="When is my card actually charged on per-turn?">
+    When the unit is marked guest-ready. Up to that point it's a pre-authorization (a hold) placed when the turn is generated. The hold becomes the real charge only on completion.
+  </Accordion>
+  <Accordion title="Does managed-monthly have a minimum?">
+    No. There's no committed minimum. You're billed in arrears at month end for the turns that actually ran, at the discount tier your real volume earned that month.
+  </Accordion>
+  <Accordion title="What's the same-day surge again?">
+    +25% on any turn where a guest checks out and another checks in on the same calendar day. Zulma flags these from your calendar before they run, so there are no surprises. A buffer day between bookings avoids it.
+  </Accordion>
+  <Accordion title="What happens if I cancel?">
+    Nothing if you cancel before the Pro is on the way. After they're en route, a $45 late-cancel fee applies. If the Pro arrives and can't complete the turn (no access, guest still present, unit trashed), it's a $35 trip fee. Both go to the Pro.
+  </Accordion>
+  <Accordion title="A guest cancelled their stay. Do I need to do anything?">
+    No. Once the cancellation shows on your booking calendar, Zulma reconciles it on the next poll, drops the turn, and releases any hold on your card. No action needed on your end.
+  </Accordion>
+  <Accordion title="What if a completed turn isn't up to standard?">
+    Tell us and we'll make it right with a re-clean or a Zulma credit. Zulma's liability for a missed or not-guest-ready turn is capped at the cleaning fee, with consequential losses excluded. The full detail is in [how turnovers work](/hosts/how-turnovers-work).
+  </Accordion>
+  <Accordion title="Is there any sales tax on my bill?">
+    No. Zulma isn't charging sales tax during launch. Your price is all-in.
+  </Accordion>
+</AccordionGroup>
+
+## Next steps
+
+<CardGroup cols={2}>
+  <Card title="Host pricing & plans" href="/hosts/pricing" icon="wallet">
+    How each turn is priced: Standard vs Deep, size scaling, commitment discounts, and the same-day surge.
+  </Card>
+  <Card title="Hosts overview" href="/hosts/overview" icon="key-round">
+    The big picture on Zulma for Hosts, from calendar link to guest-ready.
+  </Card>
+  <Card title="How turnovers work" href="/hosts/how-turnovers-work" icon="calendar-check">
+    Calendar polling, same-day detection, photo proof, and the liability cap.
+  </Card>
+  <Card title="Questions on billing?" href="mailto:hello@zulma.ca" icon="file-text">
+    Email **hello@zulma.ca**, or **business@zulma.ca** for multi-property accounts. We reply to most messages within one business day.
+  </Card>
+</CardGroup>

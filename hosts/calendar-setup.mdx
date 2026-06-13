@@ -1,0 +1,111 @@
+---
+title: "Calendar setup"
+description: "Connect your Airbnb, Vrbo, or Booking.com calendar so Zulma reads every checkout and generates turnovers automatically."
+---
+
+Zulma generates a turnover for you automatically every time a guest checks out. To do that, it reads your listing's calendar through a read-only iCal link. You paste the link once into your property profile, and Zulma takes it from there.
+
+This page walks through where to find that link, how to add more than one, and what Zulma does with it after that.
+
+<Info>
+The iCal link is read-only. Zulma reads your checkout dates so it can schedule cleans. It never writes to your calendar, changes your availability, or touches your listing.
+</Info>
+
+## How it works in one line
+
+Paste your listing's iCal link into the property profile. Zulma polls it every 30 to 60 minutes, reads each checkout, and generates a turnover on a rolling 4 to 6 week window.
+
+## Add your calendar
+
+<Steps>
+  <Step title="Open the property profile">
+    Go to the property you want to set up. Calendar feeds live in the property profile alongside your default check-in and check-out times, laundry tier, and access instructions.
+  </Step>
+  <Step title="Copy the read-only iCal link from your listing platform">
+    Each platform exports an `.ics` calendar URL. See the platform-specific steps below.
+  </Step>
+  <Step title="Paste the link into the property profile">
+    Drop the iCal URL into the calendar field on the property. You can add more than one link per property if the same unit is listed in more than one place.
+  </Step>
+  <Step title="Set your check-in and check-out times">
+    Calendars carry dates, not times. Enter your default check-out and check-in times on the property profile (for example, 11 AM check-out and 3 PM check-in) so Zulma knows your turnover window.
+  </Step>
+  <Step title="Complete the property attestations">
+    A property goes active only after you complete its attestations. Once it's active, Zulma starts generating turnovers from your calendar. See <a href="/hosts/getting-started">getting started</a> for the full setup.
+  </Step>
+</Steps>
+
+## Where to find your iCal link
+
+<Tabs>
+  <Tab title="Airbnb">
+    1. Open your listing and go to **Edit Listing**.
+    2. Open **Availability**.
+    3. Find **Sync calendars** and choose **Export calendar**.
+    4. Copy the `.ics` URL shown.
+    5. Paste it into your Zulma property profile.
+  </Tab>
+  <Tab title="Vrbo">
+    Vrbo has its own calendar export link in your listing's availability or sync settings. Copy the export URL it gives you and paste it into your Zulma property profile.
+  </Tab>
+  <Tab title="Booking.com">
+    Booking.com has its own calendar export link in your listing's calendar or sync settings. Copy the export URL it gives you and paste it into your Zulma property profile.
+  </Tab>
+</Tabs>
+
+<Tip>
+Copy the export (read-only) link, not an import field. You're handing Zulma a link it can read, not asking it to pull a calendar into your listing.
+</Tip>
+
+## More than one feed per property
+
+If the same unit is listed in more than one place (for example, one listing on Airbnb and the same unit on Vrbo), add every feed to that one property.
+
+Zulma de-duplicates across feeds, so a single checkout date generates one turn per property. You won't get two cleans for the same checkout just because the booking shows up on two calendars.
+
+## What Zulma does with your calendar
+
+<AccordionGroup>
+  <Accordion title="Polling every 30 to 60 minutes">
+    Zulma re-checks each feed every 30 to 60 minutes. New bookings, moved bookings, and cancellations are picked up automatically on the next poll. You don't need to tell us when something changes.
+  </Accordion>
+  <Accordion title="Reading the checkout date">
+    Each booking's checkout is the calendar's end date. That's the date Zulma uses to schedule the turnover, so the unit is reset before your next guest arrives.
+  </Accordion>
+  <Accordion title="Same-day turn detection">
+    When a checkout and the next check-in fall on the same date, Zulma flags it as a same-day turn so it can be prioritized. Same-day turns add +25% to the turnover price. See <a href="/hosts/billing">billing</a> for how that's charged.
+  </Accordion>
+  <Accordion title="Check-in and check-out times from your profile">
+    Calendars don't carry times, only dates. Zulma uses the default times on your property profile (for example, 11 AM check-out, 3 PM check-in) to set the turnover window. Keep those accurate so the clean lands inside the gap between guests.
+  </Accordion>
+  <Accordion title="Rolling 4 to 6 week generation">
+    Turns are generated on a rolling 4 to 6 week window. As new bookings land on your calendar, upcoming turns appear; far-future bookings are picked up as they come into the window.
+  </Accordion>
+</AccordionGroup>
+
+## What gets read from where
+
+| Detail | Source |
+|---|---|
+| Checkout date | Your listing's iCal feed (calendar end date) |
+| New, moved, or cancelled bookings | The next poll of your feed (every 30 to 60 min) |
+| Same-day turn flag | Checkout and next check-in on the same date |
+| Check-out and check-in times | Your property profile defaults |
+| How far ahead turns are generated | Rolling 4 to 6 week window |
+
+<Note>
+If a guest moves or cancels a booking, Zulma reconciles it automatically on the next poll. You don't need to cancel or reschedule the turn by hand.
+</Note>
+
+## Next steps
+
+<CardGroup cols={2}>
+  <Card title="Getting started" href="/hosts/getting-started" icon="key-round">
+    Finish setting up your property, from profile to active.
+  </Card>
+  <Card title="How turnovers work" href="/hosts/how-turnovers-work" icon="calendar-check">
+    See what happens from checkout to "guest-ready."
+  </Card>
+</CardGroup>
+
+Questions about connecting a calendar? Email <a href="mailto:hello@zulma.ca">hello@zulma.ca</a>.
