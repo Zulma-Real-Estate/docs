@@ -1,5 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "redirects": [
+    {
+      "source": "/cleaners/insurance",
+      "destination": "/cleaners/insurance-requirements"
+    }
+  ],
   "theme": "almond",
   "name": "Zulma Help Center",
   "description": "Guides, service details, and support for Zulma customers, businesses, hosts, and crew across the Niagara region.",
@@ -130,7 +136,9 @@
               "cleaners/requirements",
               "cleaners/apply",
               "cleaners/identity-and-checks",
-              "cleaners/insurance"
+              "cleaners/insurance-requirements",
+              "cleaners/police-check",
+              "cleaners/whmis"
             ]
           },
           {
