@@ -1,6 +1,6 @@
 ---
 title: Zulma Help
-description: Help with Zulma's home app, My Home, Plans and Projects, Atlas, Keepsafe and Zulma+.
+description: "Guides for Zulma, the home app for homeowners in Canada: set up your home, plan projects, get and compare quotes, find businesses on Atlas, keep invoices with Keepsafe, use Zu, and manage Zulma+ and your account."
 mode: wide
 ---
 
@@ -9,45 +9,45 @@ export const PARTS = [
     name: "Today",
     image: "today",
     rows: [
-      { icon: "calendar", title: "What does Today show?", line: "Alerts, late to-dos and what's next", href: "/today/overview" },
-      { icon: "layout-grid", title: "How do I change my dock?", line: "Pick the places your dock shows", href: "/get-started/getting-around" },
-      { icon: "clipboard-list", title: "How do I start a project?", line: "Name the work, add photos, save", href: "/plans-and-projects/start-a-project" },
+      { icon: "calendar", title: "Today", line: "Alerts, late to-dos and what's next", href: "/today/overview" },
+      { icon: "list-checks", title: "To-dos and supplies", line: "What to do, and what to buy for it", href: "/my-home/todos-and-supplies" },
+      { icon: "compass", title: "Get around Zulma", line: "The menu, the dock and search", href: "/get-started/getting-around" },
     ],
   },
   {
     name: "My Home",
     image: "my-home",
     rows: [
-      { icon: "house", title: "How do I set up my home?", line: "Address, rooms, systems and documents", href: "/my-home/set-up-your-home" },
-      { icon: "image", title: "How do I add my rooms?", line: "Name each space and add photos", href: "/my-home/add-rooms-and-photos" },
-      { icon: "wallet", title: "How do I track home costs?", line: "Log what your home costs you", href: "/my-home/track-home-costs" },
+      { icon: "house", title: "Set up your home", line: "Address, rooms, systems and documents", href: "/my-home/set-up-your-home" },
+      { icon: "image", title: "Add rooms and photos", line: "Name each space and add photos", href: "/my-home/add-rooms-and-photos" },
+      { icon: "wallet", title: "Track home costs", line: "Log what your home costs you", href: "/my-home/track-home-costs" },
     ],
   },
   {
     name: "Plans and Projects",
     image: "projects",
     rows: [
-      { icon: "clipboard-list", title: "How do I start a project?", line: "Name the work, add photos, save", href: "/plans-and-projects/start-a-project" },
-      { icon: "send", title: "How do I get quotes?", line: "Publish your project to businesses", href: "/plans-and-projects/share-your-project" },
-      { icon: "scale", title: "How do I compare quotes?", line: "See every quote side by side", href: "/inbox/compare-quotes" },
+      { icon: "clipboard-list", title: "Start a project", line: "Name the work, add photos, save", href: "/plans-and-projects/start-a-project" },
+      { icon: "send", title: "Get quotes for a project", line: "Publish it to businesses", href: "/plans-and-projects/share-your-project" },
+      { icon: "scale", title: "Compare quotes", line: "See every quote side by side", href: "/inbox/compare-quotes" },
     ],
   },
   {
     name: "Atlas",
     image: "atlas",
     rows: [
-      { icon: "map", title: "How do I find a plumber?", line: "Choose your town and the kind of work", href: "/atlas/find-a-business" },
-      { icon: "message-square", title: "How do I ask for a quote?", line: "Describe the job and send it", href: "/atlas/request-a-quote" },
-      { icon: "star", title: "How do I review a business?", line: "Rate the work and say how it went", href: "/atlas/write-a-review" },
+      { icon: "map", title: "Find a business", line: "Choose your town and the kind of work", href: "/atlas/find-a-business" },
+      { icon: "message-square", title: "Request a quote", line: "Describe the job and send it", href: "/atlas/request-a-quote" },
+      { icon: "star", title: "Write a review", line: "Rate the work and say how it went", href: "/atlas/write-a-review" },
     ],
   },
   {
     name: "Keepsafe",
     image: "keepsafe",
     rows: [
-      { icon: "archive", title: "What is Keepsafe?", line: "Invoices that join your home's history", href: "/keepsafe/what-is-keepsafe" },
-      { icon: "file-text", title: "How do I store a receipt?", line: "Upload it to Documents in My Home", href: "/my-home/store-a-receipt-or-warranty" },
-      { icon: "book-open", title: "How do I log work done?", line: "Keep a record of what was done", href: "/my-home/log-work-done" },
+      { icon: "archive", title: "Keepsafe", line: "Invoices that join your home's history", href: "/keepsafe/what-is-keepsafe" },
+      { icon: "file-text", title: "Store receipts and warranties", line: "Keep them on Documents in My Home", href: "/my-home/store-a-receipt-or-warranty" },
+      { icon: "book-open", title: "Log work done", line: "Keep a record of what was done", href: "/my-home/log-work-done" },
     ],
   },
 ];
@@ -134,14 +134,17 @@ export const Parts = () => {
 
   <div className="flex flex-col gap-6 border-t border-gray-100 py-10 dark:border-white/10">
     <h2 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">More help</h2>
-    <Columns cols={3}>
-    <Card title="Zu" icon="sparkles" iconType="light" href="/zu/what-can-zu-do" cta="2 articles">
-      Drafts a project from your photos
+    <Columns cols={2}>
+    <Card title="Inbox and quotes" icon="inbox" iconType="light" href="/inbox/overview" cta="3 articles">
+      Messages, quotes and choosing one
     </Card>
-    <Card title="Zulma+ and plans" icon="badge-check" iconType="light" href="/plans/what-zulma-plus-includes" cta="2 articles">
+    <Card title="Zu" icon="sparkles" iconType="light" href="/zu/overview" cta="2 articles">
+      Drafts projects and reads your files
+    </Card>
+    <Card title="Zulma+ and plans" icon="badge-check" iconType="light" href="/plans/overview" cta="3 articles">
       What Zulma+ adds and costs
     </Card>
-    <Card title="Account and privacy" icon="circle-user" iconType="light" href="/account/settings" cta="5 articles">
+    <Card title="Account and privacy" icon="circle-user" iconType="light" href="/account/overview" cta="6 articles">
       Sharing, settings and your data
     </Card>
     </Columns>
