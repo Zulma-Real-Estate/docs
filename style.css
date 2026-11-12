@@ -239,11 +239,6 @@ ul:is(:has(> #topbar-cta-button), :has(> li.navbar-link)) {
   }
 }
 
-/* the page description shows under the title as the lead (Coinbase style); the Pro pages still open with the same sentence, so it stays hidden there */
-html[data-current-path^="/cleaners/"] #header > div.mt-2.text-lg {
-  display: none;
-}
-
 /* home page: our own hero is the title, so hide the page header and its top gap */
 html[data-current-path="/"] #header {
   display: none;
