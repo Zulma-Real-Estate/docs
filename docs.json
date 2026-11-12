@@ -253,6 +253,10 @@
     {
       "source": "/today/change-your-dock",
       "destination": "/get-started/getting-around"
+    },
+    {
+      "source": "/zu/what-can-zu-do",
+      "destination": "/zu/overview"
     }
   ],
   "theme": "almond",
@@ -359,7 +363,6 @@
             "icon": "sparkles",
             "pages": [
               "zu/overview",
-              "zu/what-can-zu-do",
               "zu/draft-a-project-with-zu"
             ]
           },

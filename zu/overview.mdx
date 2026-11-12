@@ -2,16 +2,84 @@
 title: "Zu"
 mode: "wide"
 sidebarTitle: "Overview"
-description: "Zu is Zulma's helper for your home. It turns photos of a job into a draft project."
+keywords: ["Zulma AI", "AI home assistant", "AI draft a home project", "read a contractor quote with AI", "scan an appliance label", "import a home inspection report", "what the law requires of my home", "smoke alarm rules Ontario"]
+description: "Zu is Zulma's helper for your home. He drafts projects from your words and photos, reads quotes, receipts and invoices, scans appliance labels, fills in your home from a file, and checks what the law asks of your home. Nothing he finds is saved until you check it."
 ---
 
-Zu is Zulma's helper for your home. It turns photos of a job into a draft project.
+import { Shot } from '/snippets/shot.jsx';
+
+Zu reads your files, drafts what you want done, and checks what the law asks of your home. Nothing he finds is saved until you check it. Select **Zu** in the menu to open his page.
+
+## What Zu does
+
+| Task | Where | What you get |
+| --- | --- | --- |
+| Draft a project | Zu's page, or **Let Zu draft it** on a new project | A project written from your words and photos, with what a business still needs to know. [Draft a project](/zu/draft-a-project-with-zu) |
+| Read a quote | **Add a quote** on a project | The business name and total filled in from a photo or PDF. [Compare quotes](/inbox/compare-quotes) |
+| Read an invoice | **Keepsafe** in your Inbox | The invoice's details filled in for you to check. [Keepsafe](/keepsafe/what-is-keepsafe) |
+| Scan a label | **Scan its label** on a system | The brand, model and serial from a photo of an appliance's label. [Systems](/my-home/add-your-furnace) |
+| Fill in your home from a file | **Import a file** | Details for your home's record from an inspection report, the listing or a manual |
+| Check the law | **What the law asks of this home** on Zu's page | What your town and Ontario ask of this home, and what your record holds |
+
+## Zu's page
+
+At the top, tell Zu what you want done in a few words, or pick a starter: **Draft a project**, **Import a file**, **Scan a label** or **Read a quote**.
+
+Below that:
+
+- **Needs you** shows what is waiting on you, one card at a time.
+- **What Zu did** lists his work, newest first.
+- **Your chats with Zu** keeps every conversation. Search them, rename one or start a **New chat**.
+
+## What the law asks of this home
+
+<Shot name="zu-law" alt="What the law asks of this home: a question about fuel-burning appliances beside pool fence, smoke alarm and carbon monoxide alarm rules" />
+
+Zu reads your home's town from its record and shows only the rules that land on it, like smoke alarms, carbon monoxide alarms or a pool fence. He asks a short question for each, like whether anything burns fuel. Answer **Yes**, **No** or **Not sure**, or **Skip**.
+
+Each rule then shows where it stands, like **To answer** or **Nothing on file**. **Today** also shows how many questions are left.
+
+<Note>
+  Zu shows what the rules ask and what you told him. He does not inspect your home or certify that it meets a rule.
+</Note>
+
+## Turn on reading
+
+Zu reads with AI only with your OK. The first time, select **Turn it on**. You can change it any time in [Settings](/account/settings), under **Let Zulma read your documents with AI**.
+
+Zulma sends what you choose to OpenAI to read it for you: a photo of a quote or a receipt, the files you import or labels you scan, and what you give Zu for a project. OpenAI does not train on it, and nothing is added to your home until you check it.
+
+## AI uses
+
+Each thing Zu reads or drafts is one AI use. A draft uses one, its questions included. A long chat uses one for every so many messages. You have a number of uses each day and each week, and [Zulma+](/plans/what-zulma-plus-includes) has more. Zu's page shows what you have left.
+
+When none are left, Zu says when the next one comes back, and you can carry on by hand.
+
+## Common questions
+
+### Is Zu free?
+
+Yes. A free Zulma account includes AI uses each day and week. Zulma+ includes more.
+
+### Does Zu see my whole home record?
+
+In a chat, Zu is given the conversation and your home's town and kind. He reads a project, a quote or a file only when you give it to him.
+
+### Will Zu send anything to a business?
+
+No. Zu drafts, and you send. Nothing goes to a business until you publish.
+
+### Who can use Zu on a home?
+
+Anyone who can edit the home. Chats are yours, and when a home is sold, the seller's chats about it are removed.
+
+## What to read next
 
 <Columns cols={2}>
-  <Card title="What can Zu do?" icon="sparkles" iconType="light" href="/zu/what-can-zu-do">
-    What Zu asks and what it drafts
+  <Card title="Draft a project" icon="wand-sparkles" iconType="light" href="/zu/draft-a-project-with-zu" horizontal>
+    From a few words and a photo
   </Card>
-  <Card title="How do I draft a project with Zu?" icon="wand-sparkles" iconType="light" href="/zu/draft-a-project-with-zu">
-    From a photo to a draft project
+  <Card title="Settings" icon="settings" iconType="light" href="/account/settings" horizontal>
+    Turn AI reading on or off
   </Card>
 </Columns>
