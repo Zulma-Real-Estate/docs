@@ -1,23 +1,82 @@
 ---
 title: "Add your systems"
 sidebarTitle: "Systems"
-description: "In My Home, open Systems, select Add a system, choose Furnace, then enter the year it went in or roughly how old it is."
+keywords: ["furnace age", "water heater age", "roof age", "how old is my furnace", "home systems", "appliance warranty", "service reminder", "replacement cost", "scan label"]
+description: "In My Home, open Systems and select Add a system. Choose the kind, like a furnace, and add the year it went in. Zulma shows how many years it has left on a typical life."
 ---
 
-In **My Home**, open **Systems**, select **Add a system** and choose **Furnace**.
+import { Shot } from '/snippets/shot.jsx';
 
-1. Open **My Home**, then **Systems**.
-2. Select **Add a system**.
-3. Choose **Furnace**.
-4. Enter the **Year it went in**, like 2014. If you don't know the year, choose **Or roughly how old it is**.
-5. Add anything else you know: **Last serviced**, **How often to service it**, **Brand**, **Model**, **Warranty ends** and **Rented from**.
-6. Select **Add**.
+Systems are the big working parts of your home: furnace, water heater, roof, appliances. Give each one its age, and Zulma shows where it sits in a typical life, so two replacements due in the same year never surprise you.
 
-Your furnace's age then shows on **Today**, next to how long furnaces usually last.
+<Shot name="systems" alt="Systems in My Home: a fridge with 5 to 10 years left, and suggestions for systems not added yet" />
 
-The same steps work for a boiler, air conditioning, water heater, air exchanger, sump pump, roof, eavestroughs, garage door, washer, dryer, dishwasher, fridge, stove, septic system or well pump.
+## Add a system
 
-## Related
+<Shot name="system-new" width={420} alt="The New system form with a tile for each kind of system" />
 
-- [What does the Today page show?](/today/overview)
-- [How do I store a receipt or warranty?](/my-home/store-a-receipt-or-warranty)
+<Steps>
+  <Step title="Open Systems">
+    Open **My Home**, then **Systems**, and select **Add a system**.
+  </Step>
+  <Step title="Choose which one">
+    Pick a tile: furnace, boiler, air conditioning, water heater, air exchanger, sump pump, roof, eavestroughs, garage door, washer, dryer, dishwasher, stove, septic system or well pump. For anything else, choose **Something else**.
+  </Step>
+  <Step title="Add its age">
+    Under **Age**, enter the **Year it went in**, like 2014. If you don't know it, choose **Or roughly how old it is**: under 5 years, and so on up to over 15.
+  </Step>
+  <Step title="Add service and details">
+    Add **Last serviced** and a **Service rhythm**, like once a year. Under **Details**, add the **Brand**, **Model**, **Warranty ends** and **Rented from**, if it is a rental.
+  </Step>
+  <Step title="Save">
+    Select **Add**.
+  </Step>
+</Steps>
+
+## What each system shows
+
+| On the card | What it means |
+| --- | --- |
+| Years left, typically | The years left on the usual life of that kind, like "5 to 10" |
+| The bar | How far through that life it is |
+| Service | When it is due for routine service, or **No routine service for this kind** |
+| Replacing it | Your own figure for what replacing it would cost, never a Zulma estimate |
+
+Ages are measured against the trade's typical service life. They are not a prediction about your system.
+
+## Scan its label
+
+Owners and co-owners can select **Scan its label** on a system and take one photo of its rating plate. Zu reads the label and shows what it found, like the brand, model and the year its serial number says it was made. Tick what is right and select **Save**. Nothing is stored until you save, and reading a label uses one AI use.
+
+<Tip>
+  Under **This home probably also has**, Zulma lists systems your home likely has but you haven't added. Select **+** to add one.
+</Tip>
+
+## Keep the service date current
+
+When you [log work](/my-home/log-work-done) on Activity, pick the system under **Which system was it?** Systems then shows that date as its last service.
+
+## Common questions
+
+### How do I find out how old my furnace is?
+
+Look for the year on the rating plate inside the furnace door, or use **Scan its label**. If you can't find it, choose a rough age.
+
+### Where does the age show?
+
+On the system's card in Systems, and on the system ages line on [Today](/today/overview).
+
+### Is the replacement cost an estimate?
+
+No. It is a figure you enter yourself. Zulma does not estimate it.
+
+## What to read next
+
+<Columns cols={2}>
+  <Card title="Work done" icon="book-open" iconType="light" href="/my-home/log-work-done" horizontal>
+    Log a service against a system
+  </Card>
+  <Card title="Receipts and warranties" icon="file-text" iconType="light" href="/my-home/store-a-receipt-or-warranty" horizontal>
+    Keep its warranty with the home
+  </Card>
+</Columns>

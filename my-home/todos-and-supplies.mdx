@@ -1,34 +1,91 @@
 ---
 title: "To-dos and supplies"
-description: "In My Home, open To-dos and select Add a to-do, or open Supplies and select Add a supply, like a furnace filter."
 sidebarTitle: "To-dos and supplies"
+keywords: ["home to-do list", "home maintenance checklist", "furnace filter reminder", "replace filters", "household supplies", "chores", "reminders"]
+description: "In My Home, To-dos holds the jobs you mean to get to, sorted by when they're due. Supplies tracks the things that run out, like furnace filters and batteries, and says when each is due again."
 ---
 
-In **My Home**, open **To-dos** to add a job to remember, or **Supplies** to add something your home uses up.
+import { Shot } from '/snippets/shot.jsx';
 
-## Add a to-do
+To-dos are the jobs your home needs doing. Supplies are the things it uses up and you replace on a rhythm. Anything late or overdue from either one shows on [Today](/today/overview).
 
-1. Open **My Home**, then **To-dos**.
-2. Select **Add a to-do**.
-3. Under **What**, write the job, like "Get the chimney swept".
-4. Choose **How much it matters** and **By when**.
-5. Add **Notes** if you need them.
-6. Select **Add it**.
+## To-dos
 
-A to-do that is late shows on **Today**.
+<Shot name="todos" alt="To-dos in My Home as a board with columns for late, this week, this month, someday and done" />
 
-## Add a supply
+### Add a to-do
 
-1. Open **My Home**, then **Supplies**.
-2. Select **Add a supply**.
-3. Enter a **Name**, like "Furnace filter".
-4. Choose **What kind** and **How often** it needs replacing.
-5. Add when it was **Last replaced**.
-6. Select **Add**.
+<Shot name="todo-new" width={560} alt="The What needs doing form: what, how much it matters, by when, where and notes" />
 
-A supply that is overdue shows on **Today**.
+<Steps>
+  <Step title="Open To-dos">
+    Open **My Home**, then **To-dos**, and select **Add a to-do**. The **New to-do** shortcut on Today opens the same form.
+  </Step>
+  <Step title="Say what needs doing">
+    Under **What**, write the job, like "Get the chimney swept".
+  </Step>
+  <Step title="Set how much it matters">
+    Choose **No flag**, **Low**, **Medium** or **High**.
+  </Step>
+  <Step title="Add a date if there is one">
+    Under **By when**, pick a date, and a time if you like. Leave it empty if there is no deadline. The time is your home's local time.
+  </Step>
+  <Step title="Add where and save">
+    Under **Where**, choose a room or **Whole home**, add **Notes** if you need them, then select **Add it**.
+  </Step>
+</Steps>
 
-## Related
+### Three ways to see your to-dos
 
-- [What does the Today page show?](/today/overview)
-- [How do I add my furnace and its age?](/my-home/add-your-furnace)
+| View | What it shows |
+| --- | --- |
+| Board | Columns for **Late**, **This week**, **This month**, **Someday** and **Done**. Move a card between columns with its arrows. |
+| Month | A calendar. Double-click a day to put something on it. |
+| Checklist | One list to tick off |
+
+Select a to-do to finish it. Finished ones move to **Done**.
+
+## Supplies
+
+### Add a supply
+
+<Shot name="supply-new" width={460} alt="The New supply form with a name, a note, the kind, how often and when it was last replaced" />
+
+1. Open **My Home**, then **Supplies**, and select **Add a supply**.
+2. Enter a **Name**, like "Furnace filter", and a note to tell it apart, like "16x25x1, the one behind the basement door".
+3. Choose **What kind**: supply, maintenance or shelf.
+4. Choose **How often** it needs replacing: weekly, every two weeks, monthly, quarterly, twice a year or yearly.
+5. Add when it was **Last replaced**, then select **Add**.
+
+When you replace it, select **Replaced today** and the clock starts again.
+
+<Tip>
+  Under **Your systems use these**, Zulma suggests supplies for the systems you have added, like filters for your furnace. They are suggestions only until you add one.
+</Tip>
+
+Supplies shows what is **Overdue**, what is **Due soon** in the next two weeks, and **Everything**.
+
+## Common questions
+
+### Can Zulma remind me to change my furnace filter?
+
+Yes. Add the filter as a supply with how often it needs changing. When it is overdue, it shows on Supplies and on Today.
+
+### Can I put a to-do on a date and time?
+
+Yes. Add a date under **By when** and, if you like, a time. To-dos without a date sit in **Someday**.
+
+### Can people I share my home with see my to-dos?
+
+Yes. To-dos and supplies are part of the home's record, so everyone on the home sees them.
+
+## What to read next
+
+<Columns cols={2}>
+  <Card title="Systems" icon="flame" iconType="light" href="/my-home/add-your-furnace" horizontal>
+    The systems your supplies belong to
+  </Card>
+  <Card title="Today" icon="calendar" iconType="light" href="/today/overview" horizontal>
+    Where late to-dos and supplies show
+  </Card>
+</Columns>

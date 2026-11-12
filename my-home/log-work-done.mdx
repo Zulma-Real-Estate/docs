@@ -1,21 +1,78 @@
 ---
 title: "Log work done"
-description: "In My Home, open Activity and select Log something. Add what was done, when, who did it and what it cost, then select Log it."
 sidebarTitle: "Work done"
+keywords: ["home maintenance log", "home service history", "record repairs", "log a repair", "maintenance record", "who did the work", "home history"]
+description: "In My Home, open Activity and select Log something. Write what was done, who did it, when and where, choose the kind of work, and attach the receipt. Each room keeps its own history."
 ---
 
-In **My Home**, open **Activity** and select **Log something**.
+import { Shot } from '/snippets/shot.jsx';
 
-1. Open **My Home**, then **Activity**.
-2. Select **Log something**.
-3. Under **What was done**, write it in a few words, like "Furnace serviced".
-4. Add **When**, **What kind of work** and **Who did it**.
-5. Add **What it cost** and the **Receipt**, if you have them.
-6. Select **Log it**.
+Activity is your home's diary: every repair, service, clean and inspection, with the date and who did it. It stays with the address, so the history is still there when the people change.
 
-You can filter **Activity** to one kind of work, or to the entries that have a receipt.
+<Shot name="activity" alt="Activity in My Home: a card for each room with when it was last cleaned and fixed" />
 
-## Related
+## Log something
 
-- [How do I track what my home costs?](/my-home/track-home-costs)
-- [How do I store a receipt or warranty?](/my-home/store-a-receipt-or-warranty)
+<Shot name="log-new" width={560} alt="The What happened form: what was done, who did it, when, where, the kind of work and a receipt" />
+
+<Steps>
+  <Step title="Open Activity">
+    Open **My Home**, then **Activity**, and select **Log something**. You can also use the **Log something** shortcut on Today.
+  </Step>
+  <Step title="Say what was done">
+    Under **What was done**, write it in a few words, like "Furnace serviced".
+  </Step>
+  <Step title="Add who and when">
+    Under **Who did it**, add the person or business. Under **When**, pick the date.
+  </Step>
+  <Step title="Choose where and what kind">
+    Under **Where**, choose a room or **Whole home**. Under **What kind of work**, choose cleaning, maintenance, repairs or inspections.
+  </Step>
+  <Step title="Link a system">
+    If the work was on a system, pick it under **Which system was it?** Systems then shows this date as its last service. This is optional.
+  </Step>
+  <Step title="Attach the receipt and save">
+    Under **Receipt**, select **Attach one**. Then select **Log it**.
+  </Step>
+</Steps>
+
+<Note>
+  Activity does not ask what the work cost. To record a cost, use **Log a cost** on [Money](/my-home/track-home-costs).
+</Note>
+
+## Read your home's history
+
+The numbers along the top count to-dos done, jobs through Zulma, fixes and upkeep, and projects finished. Below them, choose how to group the record:
+
+| View | What it shows |
+| --- | --- |
+| Spaces | A card per room with its photos, when it was **Last cleaned**, when it was **Last fixed**, and its latest entries |
+| People | The record by who did the work |
+| Kinds | The record by kind of work |
+
+Select **Show all** on a card to see everything logged there. The filter on the left narrows the record further, for example to entries with a receipt.
+
+## Common questions
+
+### What should I log?
+
+Anything you would want to know later, or that a buyer or insurer might ask about: services, repairs, replacements, inspections and big cleans.
+
+### Do jobs booked through Zulma show up on their own?
+
+Yes. Work done through Zulma joins the record with the business that did it.
+
+### Where do attached receipts go?
+
+They stay on the entry and are also listed in [Documents](/my-home/store-a-receipt-or-warranty).
+
+## What to read next
+
+<Columns cols={2}>
+  <Card title="Home costs" icon="wallet" iconType="light" href="/my-home/track-home-costs" horizontal>
+    Track what the home costs
+  </Card>
+  <Card title="Systems" icon="flame" iconType="light" href="/my-home/add-your-furnace" horizontal>
+    Keep service dates current
+  </Card>
+</Columns>

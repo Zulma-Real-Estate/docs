@@ -1,24 +1,82 @@
 ---
 title: "Track home costs"
-description: "In My Home, open Money and select Log a cost. Money is only shown to the home's owners and co-owners."
 sidebarTitle: "Home costs"
+keywords: ["home expenses", "how much does my home cost", "property tax", "home insurance", "mortgage", "utilities", "export spending", "tax receipts", "Tax Handover", "spreadsheet"]
+description: "In My Home, open Money to see what your home costs: spending by period and kind, regular costs like property tax and insurance, and every payment. Only owners see Money."
 ---
 
-In **My Home**, open **Money** and select **Log a cost**. Only owners and co-owners see **Money**.
+import { Shot } from '/snippets/shot.jsx';
 
-1. Open **My Home**, then **Money**.
-2. Select **Log a cost**.
-3. Add **What was done**, **When**, **Who did it** and **What it cost**.
-4. Add the **Receipt**, if you have it.
-5. Select **Log it**.
+Money shows what your home actually costs, one payment and one bill at a time. It is only shown to the home's owners and co-owners, never to others you share the home with.
 
-A cost you log here also shows on **Activity**, and the other way round.
+<Shot name="money" alt="Money in My Home: spending this year against last year, where it went by kind, and regular costs" />
 
-## Costs that repeat
+## What the page shows
 
-For a cost that comes back, like insurance or property tax, select **Add a regular cost**. Add **What**, the **Amount** and **How often**, then select **Add**.
+| Part | What it shows |
+| --- | --- |
+| Spending | What was spent over 3 months, 6 months or a whole year, drawn against the same time last year |
+| Where it went | The share by kind, like property tax, insurance, cleaning, repairs, inspections and maintenance |
+| Regular costs | Bills that come round, with how often, what each one costs and the total this year |
+| Payments | Every payment, with the date, kind, who it went to and the amount. Sort and filter the list. |
 
-## Related
+## Log a one-off cost
 
-- [How do I keep a record of work done?](/my-home/log-work-done)
-- [How do I store a receipt or warranty?](/my-home/store-a-receipt-or-warranty)
+<Steps>
+  <Step title="Open Money">
+    Open **My Home**, then **Money**, and select **Log a cost**.
+  </Step>
+  <Step title="Describe it">
+    Add what was done, when, who did it and **What it cost**.
+  </Step>
+  <Step title="Attach the receipt">
+    Add the receipt if you have it, then select **Log it**. The entry also joins [Activity](/my-home/log-work-done).
+  </Step>
+</Steps>
+
+## Add a regular cost
+
+For a bill that comes back, like property tax, insurance, utilities, the mortgage or rent:
+
+1. Under **Regular costs**, select **Add a regular cost**.
+2. Choose **What it is**, and name it if you like.
+3. Enter what it costs **Each time** and **How often**: a month, a quarter or a year.
+4. Add when it started, and when it ended if it has.
+5. Save it.
+
+<Note>
+  You choose whether the mortgage counts in your total. Select **Count the mortgage in the total** or **Leave the mortgage out of the total**.
+</Note>
+
+## Shortcuts
+
+| Shortcut | What it does |
+| --- | --- |
+| Export spending | Every cost between two dates, as a spreadsheet. Free, for any dates. |
+| Tax Handover | One year's costs and receipts in one file, to hand to your accountant. Nothing is sent anywhere. |
+| Receipts | Opens your receipts in [Documents](/my-home/store-a-receipt-or-warranty) |
+
+## Common questions
+
+### Who can see Money?
+
+Only the home's owners and co-owners. Others you share the home with see the rest of My Home.
+
+### Can I get my home costs as a spreadsheet?
+
+Yes. Select **Export spending**, choose the two dates and download it. It is free.
+
+### Does Zulma send my costs to the tax office?
+
+No. Tax Handover makes a file for you. You decide who gets it.
+
+## What to read next
+
+<Columns cols={2}>
+  <Card title="Receipts and warranties" icon="file-text" iconType="light" href="/my-home/store-a-receipt-or-warranty" horizontal>
+    Keep the paper behind every cost
+  </Card>
+  <Card title="Work done" icon="book-open" iconType="light" href="/my-home/log-work-done" horizontal>
+    The record behind the money
+  </Card>
+</Columns>
