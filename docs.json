@@ -7,12 +7,12 @@
     }
   ],
   "theme": "almond",
-  "name": "Zulma Help Center",
-  "description": "Guides, service details, and support for Zulma customers, businesses, hosts, and crew across the Niagara region.",
+  "name": "Zulma Help",
+  "description": "Help for Zulma, the home app for homeowners in Canada: My Home, Plans and Projects, Atlas, Keepsafe and Zulma+.",
   "colors": {
-    "primary": "#ebe3cd",
-    "light": "#7a746c",
-    "dark": "#0c0c0c"
+    "primary": "#7D632D",
+    "light": "#ebe3cd",
+    "dark": "#7D632D"
   },
   "favicon": "https://media.brand.dev/9d8aa190-855d-4b76-b09c-725c2478e64b.svg",
   "icons": {
@@ -22,107 +22,27 @@
     "eyebrows": "breadcrumbs"
   },
   "contextual": {
-    "options": ["copy", "view", "assistant"]
+    "options": [
+      "copy",
+      "view",
+      "assistant"
+    ]
   },
   "navigation": {
     "tabs": [
       {
-        "tab": "For Customers",
+        "tab": "Help",
         "groups": [
           {
-            "group": "Get Started",
-            "pages": ["introduction", "how-it-works", "service-area"]
-          },
-          {
-            "group": "Services",
+            "group": "Get started",
             "pages": [
-              "services/overview",
-              "services/standard-clean",
-              "services/deep-clean",
-              "services/move-in-out",
-              "services/post-construction",
-              "services/by-room",
-              "services/lawn-care",
-              "services/car-detailing",
-              "services/laundry"
+              "introduction",
+              "get-started/create-an-account",
+              "get-started/phone-app",
+              "get-started/where-zulma-works",
+              "get-started/is-zulma-free",
+              "get-started/book-a-service"
             ]
-          },
-          {
-            "group": "Booking",
-            "pages": [
-              "booking/how-to-book",
-              "booking/recurring",
-              "booking/add-ons",
-              "booking/cancellation"
-            ]
-          },
-          {
-            "group": "Memberships",
-            "pages": ["memberships/plans-and-perks"]
-          },
-          {
-            "group": "Account",
-            "pages": [
-              "account/overview",
-              "account/payments",
-              "account/credits",
-              "account/disputes"
-            ]
-          },
-          {
-            "group": "Trust & Safety",
-            "pages": ["trust/vetting", "trust/insurance", "trust/faq"]
-          }
-        ]
-      },
-      {
-        "tab": "For Businesses",
-        "groups": [
-          {
-            "group": "Commercial cleaning",
-            "pages": [
-              "commercial/overview",
-              "commercial/getting-a-quote",
-              "commercial/whats-included",
-              "commercial/service-tiers",
-              "commercial/supplies-and-access",
-              "commercial/quality-and-compliance",
-              "commercial/contracts",
-              "commercial/billing",
-              "commercial/faq"
-            ]
-          },
-          {
-            "group": "Apex",
-            "pages": ["commercial/apex"]
-          }
-        ]
-      },
-      {
-        "tab": "For Hosts",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "hosts/overview",
-              "hosts/getting-started",
-              "hosts/calendar-setup",
-              "hosts/multi-property"
-            ]
-          },
-          {
-            "group": "Your turnovers",
-            "pages": [
-              "hosts/how-turnovers-work",
-              "hosts/whats-included",
-              "hosts/laundry-tiers",
-              "hosts/supplies-and-linen",
-              "hosts/photo-proof-and-issues"
-            ]
-          },
-          {
-            "group": "Pricing & billing",
-            "pages": ["hosts/pricing", "hosts/billing", "hosts/faq"]
           }
         ]
       },
@@ -159,7 +79,9 @@
           },
           {
             "group": "Help",
-            "pages": ["cleaners/faq"]
+            "pages": [
+              "cleaners/faq"
+            ]
           }
         ]
       }
@@ -174,8 +96,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Book a service",
-      "href": "https://app.zulma.ca/configure"
+      "label": "Open Zulma",
+      "href": "https://app.zulma.ca"
     }
   }
 }
