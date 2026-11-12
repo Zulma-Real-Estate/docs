@@ -1,20 +1,81 @@
 ---
-title: "How do I change my Zulma settings?"
-description: "In Zulma, open Settings to choose light or dark, what Zulma tells you about and how, marketing emails, and to sign out everywhere."
+title: "Settings"
+sidebarTitle: "Settings"
+keywords: ["Zulma dark mode", "turn off Zulma notifications", "Zulma email settings", "quiet hours", "stop marketing emails", "turn off AI reading", "sign out of all devices", "Zulma setup guide"]
+description: "In Zulma, open Settings to choose light or dark, what Zulma tells you about and whether by push, email or text, marketing emails, AI reading of your documents, and to sign out on every device. Your own details are under You."
 ---
 
-In Zulma, open **Settings** in the menu. **Settings** is for the app. Your own details are under **You**.
+import { Shot } from '/snippets/shot.jsx';
 
-| Setting | Where |
-| --- | --- |
-| Light, dark or your device's setting | **Appearance**: **Light**, **Dark** or **System** |
-| What Zulma tells you about, and how | **Alerts** > **Push, email and text messages** |
-| Marketing emails | **Alerts** > **Marketing emails** (off until you turn it on) |
-| Sign out on every device | **Account** > **Sign out everywhere** |
+**Settings** is for the app: how it looks, what it tells you, and how it handles your data. Your own name, phone and payment methods are under **You**.
 
-On **Push, email and text messages**, choose for each kind of message whether it comes by email, push or text. Some messages are required and can't be turned off.
+<Shot name="settings" alt="Settings: Appearance, Setup guide, Alerts, Your data and Account" />
 
-## Related
+## What's on Settings
 
-- [How do I delete my Zulma account?](/account/delete-your-account)
-- [How do I contact Zulma?](/account/contact-zulma)
+| Section | Setting | What it does |
+| --- | --- | --- |
+| Appearance | **Light**, **Dark** or **System** | **System** follows your device and changes with it |
+| Appearance | **Setup guide** | Shows or hides the button at the bottom right that lists what is left to set up for your home |
+| Alerts | **Push, email and text messages** | What Zulma tells you about, and how |
+| Alerts | **Marketing emails** | Occasional updates about new services and offers. Off until you turn it on. |
+| Your data | **Let Zulma read your documents with AI** | Lets Zu and Keepsafe read what you give them |
+| Your data | **Download my data** | Ask for a copy of your bookings and account |
+| Your data | **Delete my account** | Close your account |
+| Account | **Signed in on** | How many devices used your account in the last 30 days |
+| Account | **Sign out everywhere** | Ends every session, including this one |
+
+## Choose your alerts
+
+<Steps>
+  <Step title="Open your alerts">
+    In **Settings**, select **Push, email and text messages**.
+  </Step>
+  <Step title="Pick how each one reaches you">
+    Alerts are grouped, like **Your home** and **Your projects**. For each one, turn email, push or text on or off where it is offered.
+  </Step>
+  <Step title="Set quiet hours">
+    Turn on **Enable quiet hours** and pick the times. Non-urgent push alerts wait until they end. Email and text are not affected.
+  </Step>
+</Steps>
+
+<Note>
+  Alerts marked **Required** can't be turned off. Booking confirmations, dispatch updates and receipts always go out, because they are part of the service.
+</Note>
+
+## Turn AI reading on or off
+
+Turn **Let Zulma read your documents with AI** on or off at any time.
+
+Zulma sends what you choose to OpenAI to read it for you: a photo of a quote or a receipt, the files you import or labels you scan, and what you give Zu for a project. OpenAI does not train on it, and nothing is added to your home until you check it.
+
+With it off, [Zu](/zu/overview) can't read for you, and you fill things in by hand.
+
+## Sign out everywhere
+
+Use it for a lost or shared computer. Select **Sign out everywhere**, and every session ends, including the one you're in. Sign in again on the devices you use.
+
+## Common questions
+
+### How do I turn on dark mode?
+
+Open **Settings** and select **Dark** under **Appearance**. Choose **System** to follow your device.
+
+### How do I stop Zulma emails?
+
+Turn off **Marketing emails**. For other alerts, open **Push, email and text messages** and turn email off for each one, except those marked **Required**.
+
+### Where do I change my name or phone number?
+
+Open **You**, then **Your details**. To change your email, write to [hello@zulma.ca](mailto:hello@zulma.ca).
+
+## What to read next
+
+<Columns cols={2}>
+  <Card title="Download your data" icon="download" iconType="light" href="/account/download-your-data" horizontal>
+    Ask for a copy
+  </Card>
+  <Card title="Delete account" icon="trash-2" iconType="light" href="/account/delete-your-account" horizontal>
+    Close your account
+  </Card>
+</Columns>

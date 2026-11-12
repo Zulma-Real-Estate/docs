@@ -1,41 +1,108 @@
 ---
-title: "How do I share my home's record?"
-description: "In My Home, open Sharing. Select Invite a person to add family or a co-owner, or Share with a business to let a business see the parts you pick."
+title: "Share your home"
+sidebarTitle: "Share your home"
+keywords: ["share my home with family", "add a co-owner", "invite someone to my home", "give a contractor access to home records", "home roles and permissions", "stop sharing my home", "remove someone from my home"]
+description: "In My Home, open Sharing. Invite a person as a Co-owner, Helper, Family or Viewer, or share the parts of your home you pick with a business for as long as you choose. Your notes, access codes and money are never shared with a business."
 ---
 
-In **My Home**, open **Sharing**. You can invite a person to your home, or share parts of it with a business. Only owners and co-owners can share.
+import { Shot } from '/snippets/shot.jsx';
+
+Share your home with the people who help run it, and with a business that needs to see part of it. Open **My Home**, then **Sharing**. Only owners and co-owners can share.
+
+<Shot name="sharing" alt="Sharing: who can see this home, the parts a business can see, and a Helper's role with what a Helper can do" />
 
 ## Invite a person
 
-1. Open **My Home**, then **Sharing**.
-2. Select **Invite a person**.
-3. Enter **Their email or mobile number**.
-4. Choose what they can do:
+<Steps>
+  <Step title="Open Sharing">
+    Open **My Home**, then **Sharing**. Select **+** beside **People**, or **Invite a person**.
+  </Step>
+  <Step title="Say who">
+    Enter **Their email or mobile number**. A mobile number needs its area code.
+  </Step>
+  <Step title="Choose a role">
+    Pick **Co-owner**, **Helper**, **Family** or **Viewer**. The role's own words show under it.
+  </Step>
+  <Step title="Send it">
+    Select **Send the invite**. Zulma sends it by email or text, and it waits under **People** until they join.
+  </Step>
+</Steps>
 
-| Role | What they can do |
-| --- | --- |
-| Co-owner | Can change almost everything |
-| Helper | Looks after it day to day |
-| Family | To-dos and projects, no money |
-| Viewer | Sees it, changes nothing |
+### What each role can do
 
-5. Select **Send the invite**.
+| Role | Can | Can't |
+| --- | --- | --- |
+| Co-owner | All a Helper can, plus see money, share the home and invite people | Hand over or delete the home |
+| Helper | Add and tick to-dos, keep the record up to date, book visits and message pros | See money, share the home |
+| Family | Add and tick to-dos | Change the record, book, see money, share |
+| Viewer | Look | Change anything |
+
+Everyone on the home sees it, with its to-dos and projects. Only the owner can hand over or delete the home, or change someone's role.
+
+<Note>
+  A home can have up to 10 people, waiting invites included. Take back an invite that was never opened to make room.
+</Note>
+
+### A waiting invite
+
+Open it under **People** to **Send again**, **Copy invite link**, **Change role**, give it a name with **Name them**, or **Take back the invite**. A taken-back link stops working.
 
 ## Share with a business
 
-1. Open **My Home**, then **Sharing**.
-2. Select **Share with a business**.
-3. Search for the business on Zulma. If it isn't on Zulma, type **The name you know them by**.
-4. Choose what they can see, and **For how long**, like **Until I stop it**.
-5. Select **Share**.
+<Steps>
+  <Step title="Start">
+    On **Sharing**, select **+** beside **Businesses**, or **Share with a business**.
+  </Step>
+  <Step title="Find the business">
+    Search businesses on Zulma. Not on Zulma? Choose **Invite a business that is not on Zulma** and type **The name you know them by**.
+  </Step>
+  <Step title="Choose what they see">
+    Pick one or more parts: **Rooms**, **Systems**, **History** and **Documents**. From Documents, a business sees warranties and manuals only.
+  </Step>
+  <Step title="Choose for how long">
+    **7 days**, **1 month**, **3 months**, **6 months**, **1 year** or **Until I stop it**.
+  </Step>
+  <Step title="Share">
+    Select **Share**. A business on Zulma sees it at once. For one that isn't on Zulma, you get an invite link to send them yourself.
+  </Step>
+</Steps>
 
-A business on Zulma sees it at once. For a business that isn't on Zulma, you get an invite link to send them yourself. Zulma never sends it for you.
+<Warning>
+  Never shared with a business: your notes, access codes or money.
+</Warning>
 
-## Stop sharing
+## Change or stop sharing
 
-Open the person or business on **Sharing** and select **Stop sharing**. They see nothing more. Select **See their changes** to see everything they changed.
+| You want to | Do this |
+| --- | --- |
+| Change a person's role | Open them under **People** and pick a new role |
+| Give someone a name only on this home | Select **...**, then **Rename on this home**. Their account keeps its own name. |
+| Remove a person | Open them, then **Remove from this home** |
+| Change what a business sees, or for how long | Open the business, then **Change what they see** or **Change how long** |
+| Stop a business share | Open the business, then **Stop sharing**. It moves to **Ended**. |
+| See what a business changed | Open the business, then **See their changes** |
 
-## Related
+## Common questions
 
-- [How do I set up my home?](/my-home/set-up-your-home)
-- [How do I delete my Zulma account?](/account/delete-your-account)
+### Does the person I invite need a Zulma account?
+
+Yes, to join. The invite opens a page where they select **Sign in to accept**, or **Create a Zulma account** if they don't have one. Then they select **Accept invitation**.
+
+### Can a business keep seeing my home forever?
+
+Only if you choose **Until I stop it**. Any other choice ends by itself, and you can stop it early.
+
+### Can a Helper see what I spend on my home?
+
+No. Only owners and co-owners see money.
+
+## What to read next
+
+<Columns cols={2}>
+  <Card title="Set up your home" icon="house" iconType="light" href="/my-home/set-up-your-home" horizontal>
+    What's in your home's record
+  </Card>
+  <Card title="Settings" icon="settings" iconType="light" href="/account/settings" horizontal>
+    Theme, alerts and sign-in
+  </Card>
+</Columns>

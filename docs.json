@@ -7,17 +7,12 @@
     },
     {
       "source": "/account/credits",
-      "destination": "/get-started/is-zulma-free",
+      "destination": "/get-started/faq#is-zulma-free",
       "permanent": true
     },
     {
       "source": "/account/disputes",
       "destination": "/account/contact-zulma",
-      "permanent": true
-    },
-    {
-      "source": "/account/overview",
-      "destination": "/account/settings",
       "permanent": true
     },
     {
@@ -32,7 +27,7 @@
     },
     {
       "source": "/service-area",
-      "destination": "/get-started/where-zulma-works",
+      "destination": "/get-started/faq#where-does-zulma-work",
       "permanent": true
     },
     {
@@ -42,67 +37,67 @@
     },
     {
       "source": "/booking/add-ons",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
       "source": "/booking/cancellation",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
       "source": "/booking/how-to-book",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
       "source": "/booking/recurring",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
       "source": "/services/by-room",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
       "source": "/services/car-detailing",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
       "source": "/services/deep-clean",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
       "source": "/services/laundry",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
       "source": "/services/lawn-care",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
       "source": "/services/move-in-out",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
       "source": "/services/overview",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
       "source": "/services/post-construction",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
       "source": "/services/standard-clean",
-      "destination": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma",
       "permanent": true
     },
     {
@@ -234,6 +229,34 @@
       "source": "/trust/background-checks",
       "destination": "/introduction",
       "permanent": true
+    },
+    {
+      "source": "/get-started/is-zulma-free",
+      "destination": "/get-started/faq#is-zulma-free"
+    },
+    {
+      "source": "/get-started/where-zulma-works",
+      "destination": "/get-started/faq#where-does-zulma-work"
+    },
+    {
+      "source": "/get-started/book-a-service",
+      "destination": "/get-started/faq#can-i-book-a-service-through-zulma"
+    },
+    {
+      "source": "/get-started/phone-app",
+      "destination": "/get-started/faq#is-there-a-zulma-phone-app"
+    },
+    {
+      "source": "/today/today-page",
+      "destination": "/today/overview"
+    },
+    {
+      "source": "/today/change-your-dock",
+      "destination": "/get-started/getting-around"
+    },
+    {
+      "source": "/zu/what-can-zu-do",
+      "destination": "/zu/overview"
     }
   ],
   "theme": "almond",
@@ -265,25 +288,26 @@
         "groups": [
           {
             "group": "Get started",
+            "icon": "rocket",
             "pages": [
               "introduction",
               "get-started/create-an-account",
-              "get-started/phone-app",
-              "get-started/where-zulma-works",
-              "get-started/is-zulma-free",
-              "get-started/book-a-service"
+              "get-started/getting-around",
+              "get-started/faq"
             ]
           },
           {
             "group": "Today",
+            "icon": "calendar",
             "pages": [
-              "today/today-page",
-              "today/change-your-dock"
+              "today/overview"
             ]
           },
           {
             "group": "My Home",
+            "icon": "house",
             "pages": [
+              "my-home/overview",
               "my-home/set-up-your-home",
               "my-home/add-rooms-and-photos",
               "my-home/add-your-furnace",
@@ -297,7 +321,9 @@
           },
           {
             "group": "Plans and Projects",
+            "icon": "clipboard-list",
             "pages": [
+              "plans-and-projects/overview",
               "plans-and-projects/start-a-project",
               "plans-and-projects/turn-a-job-into-a-project",
               "plans-and-projects/use-a-template",
@@ -306,7 +332,9 @@
           },
           {
             "group": "Atlas",
+            "icon": "map",
             "pages": [
+              "atlas/overview",
               "atlas/find-a-business",
               "atlas/request-a-quote",
               "atlas/save-a-business",
@@ -316,34 +344,42 @@
           },
           {
             "group": "Inbox and quotes",
+            "icon": "inbox",
             "pages": [
+              "inbox/overview",
               "inbox/quotes-and-messages",
               "inbox/compare-quotes"
             ]
           },
           {
             "group": "Keepsafe",
+            "icon": "archive",
             "pages": [
               "keepsafe/what-is-keepsafe"
             ]
           },
           {
             "group": "Zu",
+            "icon": "sparkles",
             "pages": [
-              "zu/what-can-zu-do",
+              "zu/overview",
               "zu/draft-a-project-with-zu"
             ]
           },
           {
             "group": "Zulma+ and plans",
+            "icon": "badge-check",
             "pages": [
+              "plans/overview",
               "plans/what-zulma-plus-includes",
               "plans/cancel-zulma-plus"
             ]
           },
           {
             "group": "Account and privacy",
+            "icon": "circle-user",
             "pages": [
+              "account/overview",
               "account/share-your-home",
               "account/settings",
               "account/download-your-data",
@@ -358,6 +394,7 @@
         "groups": [
           {
             "group": "Join Zulma",
+            "icon": "user-plus",
             "pages": [
               "cleaners/overview",
               "cleaners/requirements",
@@ -370,6 +407,7 @@
           },
           {
             "group": "On the job",
+            "icon": "briefcase",
             "pages": [
               "cleaners/getting-your-first-job",
               "cleaners/on-the-job",
@@ -378,6 +416,7 @@
           },
           {
             "group": "Earnings",
+            "icon": "wallet",
             "pages": [
               "cleaners/how-pay-works",
               "cleaners/taxes-and-payouts",
@@ -386,6 +425,7 @@
           },
           {
             "group": "Help",
+            "icon": "life-buoy",
             "pages": [
               "cleaners/faq"
             ]
@@ -406,5 +446,8 @@
       "label": "Open Zulma",
       "href": "https://app.zulma.ca"
     }
+  },
+  "feedback": {
+    "thumbsRating": true
   }
 }

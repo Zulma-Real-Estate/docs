@@ -1,25 +1,82 @@
 ---
-title: "What does the Weather page in My Home show?"
-description: "Weather in My Home shows your home's forecast, weather alerts, step-by-step guides for storms and power cuts, and a 72-hour kit checklist."
+title: "Weather"
+sidebarTitle: "Weather"
+keywords: ["weather alerts for my home", "Environment Canada alerts", "power outage", "ice storm", "snowstorm", "emergency kit", "72 hour kit", "blackout kit", "storm prep"]
+description: "In My Home, Weather shows the forecast and Environment Canada alerts for your home, step-by-step guides for a power cut, water in the basement, an ice storm or a snowstorm, a 15-item kit and help nearby."
 ---
 
-**Weather** in **My Home** shows the weather where your home is, and helps you get ready for it.
+import { Shot } from '/snippets/shot.jsx';
 
-Open **My Home**, then **Weather**. The page has five parts:
+Weather is your home's own weather page. It reads the forecast and alerts for where your home is, and helps you get ready before something happens.
 
-| Part | What it shows |
-| --- | --- |
-| Now | The weather now and the week ahead |
-| Alerts | Weather alerts that cover your home |
-| If it happens | Step-by-step guides, like **Power out**, **Ice storm** and **Snowstorm** |
-| Your kit | A 72-hour kit to tick off, item by item |
-| Help nearby | Your power company's outage page, and local businesses on Atlas |
+<Shot name="weather" alt="Weather in My Home: the forecast, alerts, guides for if it happens and the kit" />
 
-For a home in Canada, the forecast and alerts come from Environment Canada. An alert that covers your home also shows on **Today**.
+Open **My Home**, then **Weather**. The page has five parts.
 
-In an emergency, call 911.
+## Now
 
-## Related
+The weather at your home right now, with the wind, and the week ahead with each day's high and low. For a home in Canada, the forecast comes from Environment Canada.
 
-- [What does the Today page show?](/today/today-page)
-- [How do I set up my home?](/my-home/set-up-your-home)
+## Alerts
+
+Environment Canada's alerts that cover your home, or **No alerts** when there are none. An alert for your home also shows on [Today](/today/overview).
+
+## If it happens
+
+Four short guides, one step at a time:
+
+<AccordionGroup>
+  <Accordion title="Power out (6 steps)">
+    Check your utility's outage map, unplug electronics but leave the fridge and freezer, keep them shut, leave one light on, never run a generator or barbecue indoors, and turn things back on slowly when power returns.
+  </Accordion>
+  <Accordion title="Water in the basement (6 steps)">
+    Stay out if water is near anything electrical and call your utility. If it is safe, check the sump pump, move things up, take photos for your insurer, and call your insurer.
+  </Accordion>
+  <Accordion title="Ice storm (5 steps)">
+    Charge phones and power banks first, park away from trees and power lines, stay at least 10 metres from a downed line and call 911, keep eavestroughs clear, and check on neighbours.
+  </Accordion>
+  <Accordion title="Snowstorm (4 steps)">
+    Keep the furnace and dryer vents outside clear of snow, clear the walk in stages, keep a shovel, salt and a flashlight by the door, and stay off the roads.
+  </Accordion>
+</AccordionGroup>
+
+When an alert matches, the guide for it comes first.
+
+## Your kit
+
+A 15-item kit to have ready for three days, ticked off one item at a time: water, food that keeps, flashlights, a battery or crank radio, spare batteries, a charged power bank, a first aid kit, medication, cash, copies of key papers, phone numbers on paper, blankets and warm clothes, pet food and water, battery smoke and CO alarms, and knowing where your main water shut-off is.
+
+Your progress, like "4 of 15", also shows on the **Blackout kit** card in [My Home](/my-home/overview).
+
+## Help nearby
+
+Your power company's outage page, and local businesses on [Atlas](/atlas/overview) for what each guide might need, like generators, sump pumps, emergency plumbers and electricians, snow removal and furnace repair.
+
+<Warning>
+  In an emergency, call 911.
+</Warning>
+
+## Common questions
+
+### Where does Zulma get its weather?
+
+For a home in Canada, from Environment Canada. **Data sources**, at the foot of the page, lists them.
+
+### Will Zulma tell me about a storm coming to my home?
+
+Yes. An alert that covers your home shows on Weather and on Today.
+
+### What should be in a home emergency kit?
+
+The 15 items in **Your kit** cover three days: water, food, light, power, first aid, papers and warmth.
+
+## What to read next
+
+<Columns cols={2}>
+  <Card title="Systems" icon="flame" iconType="light" href="/my-home/add-your-furnace" horizontal>
+    Know your furnace and sump pump
+  </Card>
+  <Card title="Find a business" icon="map" iconType="light" href="/atlas/find-a-business" horizontal>
+    Local help on Atlas
+  </Card>
+</Columns>

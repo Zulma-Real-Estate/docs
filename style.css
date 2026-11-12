@@ -239,8 +239,8 @@ ul:is(:has(> #topbar-cta-button), :has(> li.navbar-link)) {
   }
 }
 
-/* the page description is the first sentence of every page, so it is not shown twice (kept as the meta description) */
-#header > div.mt-2.text-lg {
+/* the page description shows under the title as the lead (Coinbase style); the Pro pages still open with the same sentence, so it stays hidden there */
+html[data-current-path^="/cleaners/"] #header > div.mt-2.text-lg {
   display: none;
 }
 
@@ -250,4 +250,41 @@ html[data-current-path="/"] #header {
 }
 html[data-current-path="/"] .mdx-content {
   margin-top: 0;
+}
+
+@media (min-width: 640px) {
+  #page-title {
+    font-size: 1.75rem !important;
+    line-height: 2.25rem !important;
+  }
+}
+
+/* group overviews: two card columns only when they fit on one line each */
+@media (max-width: 1279px) {
+  html[data-current-path$="/overview"] .mdx-content .columns {
+    --cols: 1 !important;
+  }
+}
+
+/* below 1440 wide the "On this page" list squeezes the article; give the article its room */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  #content-side-layout {
+    display: none !important;
+  }
+  #pagination {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  #content-container {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
+/* phones: tables fit the screen instead of scrolling sideways (Mintlify gives every cell 150px) */
+@media (max-width: 639px) {
+  .mdx-content table td { min-width: 0 !important; }
+  .mdx-content table th, .mdx-content table td { padding-left: 0.5rem; padding-right: 0.5rem; }
+  .mdx-content table th:first-child, .mdx-content table td:first-child { padding-left: 0; }
 }
