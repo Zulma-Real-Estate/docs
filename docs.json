@@ -96,6 +96,23 @@
             "pages": [
               "keepsafe/what-is-keepsafe"
             ]
+          },
+          {
+            "group": "Zulma+ and plans",
+            "pages": [
+              "plans/what-zulma-plus-includes",
+              "plans/cancel-zulma-plus"
+            ]
+          },
+          {
+            "group": "Account and privacy",
+            "pages": [
+              "account/share-your-home",
+              "account/settings",
+              "account/download-your-data",
+              "account/delete-your-account",
+              "account/contact-zulma"
+            ]
           }
         ]
       },
