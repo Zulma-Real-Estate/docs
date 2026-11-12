@@ -267,7 +267,7 @@
     "light": "#ebe3cd",
     "dark": "#7D632D"
   },
-  "favicon": "https://media.brand.dev/9d8aa190-855d-4b76-b09c-725c2478e64b.svg",
+  "favicon": "/favicon.svg",
   "icons": {
     "library": "lucide"
   },
