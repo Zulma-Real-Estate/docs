@@ -281,3 +281,10 @@ html[data-current-path="/"] .mdx-content {
     padding-right: 2rem !important;
   }
 }
+
+/* phones: tables fit the screen instead of scrolling sideways (Mintlify gives every cell 150px) */
+@media (max-width: 639px) {
+  .mdx-content table td { min-width: 0 !important; }
+  .mdx-content table th, .mdx-content table td { padding-left: 0.5rem; padding-right: 0.5rem; }
+  .mdx-content table th:first-child, .mdx-content table td:first-child { padding-left: 0; }
+}

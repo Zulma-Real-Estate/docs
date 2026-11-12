@@ -19,7 +19,7 @@ Guides for the Zulma home app.
 - [Get started with Zulma](https://help.zulma.ca/introduction.md): Zulma is a free home app for homeowners in Canada. Keep your home's record, plan projects, find local businesses and keep every invoice in one place.
 - [Create an account](https://help.zulma.ca/get-started/create-an-account.md): Create a free Zulma account at app.zulma.ca/signup with Google, Apple, or your name, email and a password. Then sign in the same way, or with an emailed link.
 - [Get around Zulma](https://help.zulma.ca/get-started/getting-around.md): On a computer, Zulma's menu sits on the left. On a phone, a dock of shortcuts sits at the bottom. Search, your homes, alerts and your account are in the bar at the top.
-- [FAQ](https://help.zulma.ca/get-started/faq.md): Short answers about Zulma: the phone app, where it works, what it costs, booking, and who makes it.
+- [FAQ](https://help.zulma.ca/get-started/faq.md): Short answers about Zulma: the phone app, where it works, what it costs, booking, who makes it, and your data.
 
 ### Today
 
@@ -72,8 +72,8 @@ Guides for the Zulma home app.
 
 ### Zulma+ and plans
 
-- [Zulma+ and plans](https://help.zulma.ca/plans/overview.md): Your Homesake is free: every home's record, documents, plan and Atlas. Zulma+ costs $9.99 a month or $99 a year before HST and adds more room and more reach: 50 GB, folders and PDF search, and up to 25 projects out for quotes at once.
-- [What Zulma+ includes](https://help.zulma.ca/plans/what-zulma-plus-includes.md): Zulma+ costs $9.99 a month or $99 a year before HST. It adds 50 GB of space, folders and search inside PDFs, more AI use, and up to 25 projects out for quotes at once. Monthly starts with a free week, yearly with two.
+- [Zulma+ and plans](https://help.zulma.ca/plans/overview.md): Your Homesake is free: every home's record, documents, plan and Atlas. Zulma+ costs $9.99 a month before HST, less by the year, and adds more room and more reach: 50 GB, folders and PDF search, and up to 25 projects out for quotes at once.
+- [What Zulma+ includes](https://help.zulma.ca/plans/what-zulma-plus-includes.md): Zulma+ costs $9.99 a month before HST, less by the year. It adds 50 GB of space, folders and search inside PDFs, more AI use, and up to 25 projects out for quotes at once. Monthly starts with a free week, yearly with two.
 - [Cancel or pause Zulma+](https://help.zulma.ca/plans/cancel-zulma-plus.md): Open You, then Membership. Select Cancel Zulma+ to cancel, with a full refund within 14 days of paying. A monthly plan can be paused once a year. You can also switch between monthly and yearly, change your card and see receipts.
 
 ### Account and privacy
@@ -83,7 +83,7 @@ Guides for the Zulma home app.
 - [Settings](https://help.zulma.ca/account/settings.md): In Zulma, open Settings to choose light or dark, what Zulma tells you about and whether by push, email or text, marketing emails, AI reading of your documents, and to sign out on every device. Your own details are under You.
 - [Download your data](https://help.zulma.ca/account/download-your-data.md): In Zulma, open Settings and select Download my data. It opens an email to hello@zulma.ca asking for a copy of your bookings and account. Send it from the email on your account, and Zulma sends the copy to you.
 - [Delete your account](https://help.zulma.ca/account/delete-your-account.md): In Zulma, open Settings and select Delete my account, then Yes, delete my account. Your account closes at once. Sign back in within 30 days to cancel. After 30 days your personal information is permanently anonymized. Receipts are kept for 7 years, as the CRA requires.
-- [Contact Zulma](https://help.zulma.ca/account/contact-zulma.md): Email Zulma at hello@zulma.ca. Zulma is made by Zulma Resources Inc., operating as Zulma Real Estate, in Thorold, Ontario.
+- [Contact Zulma](https://help.zulma.ca/account/contact-zulma.md): Email Zulma at hello@zulma.ca from the email on your account, so Zulma can find it. What to write for a copy of your data, deleting your account, changing your email or help with a booking.
 
 ## For Zulma Pros
 
