@@ -259,13 +259,6 @@ html[data-current-path="/"] .mdx-content {
   }
 }
 
-/* group overviews: two card columns only when they fit on one line each */
-@media (max-width: 1279px) {
-  html[data-current-path$="/overview"] .mdx-content .columns {
-    --cols: 1 !important;
-  }
-}
-
 /* below 1440 wide the "On this page" list squeezes the article; give the article its room */
 @media (min-width: 1024px) and (max-width: 1439px) {
   #content-side-layout {
@@ -287,4 +280,9 @@ html[data-current-path="/"] .mdx-content {
   .mdx-content table td { min-width: 0 !important; }
   .mdx-content table th, .mdx-content table td { padding-left: 0.5rem; padding-right: 0.5rem; }
   .mdx-content table th:first-child, .mdx-content table td:first-child { padding-left: 0; }
+}
+
+/* the article column is too narrow for two tiles a row without their lines wrapping: one tile a row (the home page keeps its own grid) */
+html:not([data-current-path="/"]) .mdx-content .columns {
+  --cols: 1 !important;
 }
