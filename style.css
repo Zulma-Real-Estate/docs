@@ -286,3 +286,27 @@ html[data-current-path="/"] .mdx-content {
 html:not([data-current-path="/"]) .mdx-content .columns {
   --cols: 1 !important;
 }
+
+/* Get started: the three "Pick where to start" tiles sit side by side */
+html[data-current-path="/introduction"] .mdx-content .columns[style*="--cols:3"] {
+  --cols: 3 !important;
+}
+@media (min-width: 640px) {
+  /* tighter sides so the titles fit on one line; links line up along the bottom */
+  html[data-current-path="/introduction"] .columns[style*="--cols:3"] [data-component-part="card-content-container"] {
+    padding-left: 1.125rem !important;
+    padding-right: 1.125rem !important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  html[data-current-path="/introduction"] .columns[style*="--cols:3"] [data-component-part="card-content-container"] > a > div.w-full {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  html[data-current-path="/introduction"] .columns[style*="--cols:3"] [data-component-part="card-cta"] {
+    margin-top: auto;
+    padding-top: 1.5rem;
+  }
+}
