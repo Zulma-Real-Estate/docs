@@ -4,14 +4,14 @@ description: Help with Zulma's home app, My Home, Plans and Projects, Atlas, Kee
 mode: custom
 ---
 
-<div className="mx-auto flex w-full max-w-5xl flex-col gap-14 px-4 py-12 lg:py-16">
+<div className="mx-auto flex w-full max-w-6xl flex-col gap-14 px-4 py-12 lg:py-16">
   <div className="flex flex-col items-center gap-12">
     <div className="flex w-full max-w-lg flex-col gap-1">
       <h1 className="text-center text-4xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
         Zulma Help
       </h1>
       <p className="text-center text-balance text-base text-gray-600 dark:text-gray-400 mt-2">
-        Zulma is a home app for homeowners in Canada. It keeps a home's systems, plans and projects, receipts and warranties together in one place, and its directory, Zulma Atlas, lists local home-service businesses by trade and town across Ontario. Zulma has four parts: Home, Plans and Projects, Atlas and Keepsafe. It is free to start, and Zulma+ costs $9.99 a month before HST. Zulma is made by Zulma Resources Inc. in Thorold, Ontario, and was founded by Uba A.
+        Answers about Zulma, the home app for homeowners in Canada.
       </p>
     </div>
 
@@ -75,50 +75,54 @@ mode: custom
   </div>
 
   <div className="flex flex-col gap-4">
-    <h2 className="text-base font-medium text-gray-900 dark:text-gray-50">Guides</h2>
-    <Columns cols={2}>
-    <Card title="Get started" icon="rocket" iconType="light" href="/introduction">
-      What Zulma is, signing in, and where it works
-    </Card>
-    <Card title="Today" icon="calendar" iconType="light" href="/today/today-page">
-      What needs you now
-    </Card>
-    <Card title="My Home" icon="house" iconType="light" href="/my-home/set-up-your-home">
-      Your home's rooms, systems, documents and history
-    </Card>
-    <Card title="Plans and Projects" icon="clipboard-list" iconType="light" href="/plans-and-projects/start-a-project">
-      Plan work and get quotes on a project
-    </Card>
-    <Card title="Atlas" icon="map" iconType="light" href="/atlas/find-a-business">
-      Local home-service businesses in Ontario
-    </Card>
-    <Card title="Inbox and quotes" icon="inbox" iconType="light" href="/inbox/quotes-and-messages">
-      Quotes, messages and invoices from businesses
-    </Card>
-    <Card title="Keepsafe" icon="archive" iconType="light" href="/keepsafe/what-is-keepsafe">
-      Invoices that join your home's history
-    </Card>
-    <Card title="Zu" icon="sparkles" iconType="light" href="/zu/what-can-zu-do">
-      Zulma's helper for projects and documents
-    </Card>
-    <Card title="Zulma+ and plans" icon="badge-check" iconType="light" href="/plans/what-zulma-plus-includes">
-      What Zulma+ adds and what it costs
-    </Card>
-    <Card title="Account and privacy" icon="circle-user" iconType="light" href="/account/delete-your-account">
-      Sharing, settings, your data and your account
-    </Card>
+    <h2 className="text-base font-medium text-gray-900 dark:text-gray-50">Most asked</h2>
+    <Columns cols={3}>
+    <Card horizontal icon="rocket" iconType="light" title="What is Zulma?" href="/introduction" />
+    <Card horizontal icon="map" iconType="light" title="How do I find a plumber in my town?" href="/atlas/find-a-business" />
+    <Card horizontal icon="file-text" iconType="light" title="How do I store a receipt?" href="/my-home/store-a-receipt-or-warranty" />
+    <Card horizontal icon="clipboard-list" iconType="light" title="How do I turn a job into a project?" href="/plans-and-projects/turn-a-job-into-a-project" />
+    <Card horizontal icon="badge-check" iconType="light" title="What does Zulma+ include?" href="/plans/what-zulma-plus-includes" />
+    <Card horizontal icon="calendar-check" iconType="light" title="Can I book a service through Zulma?" href="/get-started/book-a-service" />
     </Columns>
   </div>
 
   <div className="flex flex-col gap-4">
-    <h2 className="text-base font-medium text-gray-900 dark:text-gray-50">Most asked</h2>
-    <Columns cols={2}>
-    <Card title="How do I find a plumber in my town?" href="/atlas/find-a-business" />
-    <Card title="How do I store a receipt or warranty?" href="/my-home/store-a-receipt-or-warranty" />
-    <Card title="How do I turn a job into a project?" href="/plans-and-projects/turn-a-job-into-a-project" />
-    <Card title="What does Zulma+ include?" href="/plans/what-zulma-plus-includes" />
-    <Card title="Can I book a service through Zulma?" href="/get-started/book-a-service" />
-    <Card title="How do I delete my account?" href="/account/delete-your-account" />
+    <h2 className="text-base font-medium text-gray-900 dark:text-gray-50">All guides</h2>
+    <Columns cols={3}>
+    <Card title="Today" icon="calendar" iconType="light" href="/today/today-page" cta="2 articles">
+      What needs you now
+    </Card>
+    <Card title="My Home" icon="house" iconType="light" href="/my-home/set-up-your-home" cta="9 articles">
+      Rooms, systems and documents
+    </Card>
+    <Card title="Plans and Projects" icon="clipboard-list" iconType="light" href="/plans-and-projects/start-a-project" cta="4 articles">
+      Plan work and get quotes
+    </Card>
+    <Card title="Atlas" icon="map" iconType="light" href="/atlas/find-a-business" cta="5 articles">
+      Local businesses across Ontario
+    </Card>
+    <Card title="Inbox and quotes" icon="inbox" iconType="light" href="/inbox/quotes-and-messages" cta="2 articles">
+      Quotes and messages
+    </Card>
+    <Card title="Keepsafe" icon="archive" iconType="light" href="/keepsafe/what-is-keepsafe" cta="1 article">
+      Invoices that join your home's history
+    </Card>
+    <Card title="Zu" icon="sparkles" iconType="light" href="/zu/what-can-zu-do" cta="2 articles">
+      Drafts a project from your photos
+    </Card>
+    <Card title="Zulma+ and plans" icon="badge-check" iconType="light" href="/plans/what-zulma-plus-includes" cta="2 articles">
+      What Zulma+ adds and costs
+    </Card>
+    <Card title="Account and privacy" icon="circle-user" iconType="light" href="/account/settings" cta="5 articles">
+      Sharing, settings and your data
+    </Card>
     </Columns>
+  </div>
+
+  <div className="flex flex-col gap-2">
+    <h2 className="text-base font-medium text-gray-900 dark:text-gray-50">About Zulma</h2>
+    <p className="max-w-3xl text-sm text-gray-600 dark:text-gray-400">
+      Zulma is a home app for homeowners in Canada. It keeps a home's systems, plans and projects, receipts and warranties together in one place, and its directory, Zulma Atlas, lists local home-service businesses by trade and town across Ontario. Zulma has four parts: Home, Plans and Projects, Atlas and Keepsafe. It is free to start, and Zulma+ costs $9.99 a month before HST. Zulma is made by Zulma Resources Inc. in Thorold, Ontario, and was founded by Uba A.
+    </p>
   </div>
 </div>
