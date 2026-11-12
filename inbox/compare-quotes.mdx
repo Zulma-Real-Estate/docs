@@ -1,38 +1,93 @@
 ---
 title: "Compare quotes"
-description: "Open the project in Zulma and select Compare to see its quotes side by side: total with HST, deposit, start date and what's included."
 sidebarTitle: "Compare quotes"
+keywords: ["compare contractor quotes", "which quote is best", "quote comparison", "deposit", "HST on a quote", "what's included", "add a quote I got elsewhere"]
+description: "Open the project and select Compare under its quotes. They show side by side: total with HST, deposit, when they can start and finish, what's included, the late cancel terms and how long each quote is good for."
 ---
 
-Open the project in Zulma and select **Compare**. Its quotes show side by side.
+import { Shot } from '/snippets/shot.jsx';
 
-1. Open **My Home** > **Plan** and open the project.
-2. Under its quotes, select **Compare**. Select **List** to go back.
-3. Compare the **Total with HST**, **Deposit**, **Can start**, **Done by**, **What's included** and **Good until**.
+When a project has more than one quote, put them side by side to see the differences at a glance.
+
+## Compare
+
+<Steps>
+  <Step title="Open the project">
+    Open **My Home**, then **Plan**, and open the project.
+  </Step>
+  <Step title="Select Compare">
+    Under **Quotes**, select **Compare**. Select **List** to go back.
+  </Step>
+  <Step title="Read across">
+    Each quote is a column, and each row is one thing to compare.
+  </Step>
+</Steps>
+
+| Row | What it shows |
+| --- | --- |
+| Total with HST | The whole price. If HST is extra, it says **plus HST**. |
+| May move by | How much the price could change |
+| Deposit | What they ask for up front |
+| Can start | The first day they can start |
+| Done by | When they expect to finish |
+| What's included | What the price covers |
+| If you cancel late | What they keep if you cancel late |
+| Good until | The last day the quote holds |
+| Priced before your last edit | **Yes** if you changed the project after they priced it |
 
 Anything a quote doesn't say reads **Not given**. Zulma never ranks quotes or calls a price good or high.
 
-## Answer a quote
-
-| Button | What it does |
-| --- | --- |
-| **Accept** | Accepts the quote. The business gets your name, phone and email. |
-| **No thanks** | Turns it down. The business is told, and nothing of yours is shared. |
-| **Ask for a fresh quote** | Asks the business for a new version, for example after you change the project. |
-| **Message them** | Opens a conversation with the business. |
-
-Changed your mind after **No thanks**? Select **Take back the no thanks**.
+<Tip>
+  A quote priced before your last edit may not cover what you changed. Select **Ask for a fresh quote** on it.
+</Tip>
 
 ## Add a quote you got elsewhere
 
-1. On the project, select **Add a quote**.
-2. Enter the **Business**, the **Total**, whether it includes HST, and **What it covers**.
-3. Add a photo or PDF of it under **The quote**, if you have one.
-4. Select **Save the quote**.
+<Steps>
+  <Step title="Add it">
+    On the project, under **Quotes**, select **Add a quote**.
+  </Step>
+  <Step title="Fill it in">
+    Pick the **Business** from the project, or type a name. Enter the **Total**, and say whether it includes HST. Add **What it covers** if you like.
+  </Step>
+  <Step title="Add the file">
+    Add a photo or a PDF of it under **The quote**. Zu can read a photo and fill in the name and the total for you. Check it before you save.
+  </Step>
+  <Step title="Save it">
+    Select **Save the quote**.
+  </Step>
+</Steps>
 
-Adding a quote sends nothing to the business. To mark the one you went with, select **Mark as chosen**.
+<Shot name="project-help" alt="Quotes on a project with Add a quote, beside Send Zu" />
 
-## Related
+Adding a quote sends nothing to the business. It is marked **Added by you**, and quotes sent through Zulma are marked **On Zulma**.
 
-- [Where do I see quotes and messages?](/inbox/quotes-and-messages)
-- [How do I share my project to get quotes?](/plans-and-projects/share-your-project)
+## Choose one
+
+- For a quote sent through Zulma, select **Accept**. The business gets your name, phone and email.
+- For a quote you added yourself, select **Mark as chosen**.
+
+## Common questions
+
+### Does Zulma tell me which quote is best?
+
+No. Zulma shows what each quote says, side by side, and leaves the choice to you.
+
+### Can I compare a quote from Zulma with one I got on paper?
+
+Yes. Add the paper one with **Add a quote**, and it shows in the same columns.
+
+### Does Zu reading a quote count toward anything?
+
+Yes. Each read is one AI use. If none are left for now, type the name and the total yourself.
+
+## What to read next
+
+<Columns cols={2}>
+  <Card title="Quotes and messages" icon="inbox" iconType="light" href="/inbox/quotes-and-messages" horizontal>
+    Reply, accept or say no thanks
+  </Card>
+  <Card title="Get quotes" icon="send" iconType="light" href="/plans-and-projects/share-your-project" horizontal>
+    Ask more businesses
+  </Card>
+</Columns>

@@ -1,32 +1,81 @@
 ---
 title: "Quotes and messages"
-description: "In Zulma, open Inbox. Quotes and replies from Atlas businesses are under Atlas, and each quote also shows on its project."
 sidebarTitle: "Quotes and messages"
+keywords: ["read a quote", "reply to a contractor", "message a business", "accept a quote", "decline a quote", "site visit", "quote expired"]
+description: "Quotes from Atlas businesses arrive in Inbox under Atlas, and on their project. Open one to read the price, what is included and when they can start, then Message them, Accept or say No thanks."
 ---
 
-In Zulma, open **Inbox**. Quotes and replies from businesses on Atlas are under **Atlas**.
+import { Shot } from '/snippets/shot.jsx';
 
-## The parts of Inbox
+Every quote shows in two places: in **Inbox**, under **Atlas**, and on its project under **Quotes**. They are the same quote, so answering in one place answers in both.
 
-| Part | What it holds |
+## Read a quote
+
+Open the quote to see:
+
+| Part | What it shows |
 | --- | --- |
-| Chats | Messages about a visit |
-| Zulma | Messages from Zulma |
-| Atlas | Quotes and replies from businesses you asked |
-| Keepsafe | Documents from businesses, waiting for your yes |
-| Archived | Anything you filed away |
+| The lines | Each part of the job and its price, then **Before tax**, **HST** and the **Total** |
+| When they can start | The days and times the business offered |
+| In their words | The business's own note |
+| If you cancel late | Whether they keep nothing, a quarter, half or all of the deposit |
+| The business | Its reviews, and **See business** to open its Atlas page |
 
-To file a conversation away, select **Archive**. Select **Put it back** to bring it back.
+A business that is not registered for HST says so on the quote. A quote priced before you last changed the project is marked **Priced before your last edit**.
 
-## Reply to a business
+### Site visits
 
-1. Open the quote in **Inbox** > **Atlas**, or on its project.
-2. Select **Message them**, write your message and send it.
+Some businesses offer to visit first, before they price the job. These show under **Site visits offered**, with whether there is a charge. Pick a time from the visit.
 
-Replying shares your name, phone and email with that business. Until you reply, share them or accept a quote, they stay private.
+## Answer a quote
 
-## Related
+| Button | What it does |
+| --- | --- |
+| **Message them** | Opens a conversation with the business |
+| **Accept** | Accepts the quote. The business gets your name, phone and email. |
+| **No thanks** | Turns it down. They are told plainly, and nothing of yours is shared. |
+| **Ask for a fresh quote** | Asks them for a new one, for example after you change the project |
 
-- [How do I compare quotes?](/inbox/compare-quotes)
-- [How do I ask a business on Atlas for a quote?](/atlas/request-a-quote)
-- [What is Keepsafe?](/keepsafe/what-is-keepsafe)
+Changed your mind after **No thanks**? Select **Take back the no thanks**. The quote goes back with the others, and the business is told.
+
+<Warning>
+  Replying to a business shares your name, phone and email with it. Until you reply, share them or accept, they stay private.
+</Warning>
+
+## Messages
+
+- Add a photo or a PDF with **Add a photo or a PDF**.
+- Once a quote passes its date, a reply shares nothing about you, but your message still reaches the business.
+- **Close this conversation** stops both sides writing. Everything said stays there. **Open it again** reopens it.
+- **Archive** files a conversation away. Find it under **Archived**, and select **Put it back** to return it.
+
+## When no quote comes
+
+On the project, each business you asked shows where it stands, like **Waiting for a quote** or **No quote came in time**. Select **Ask another business** to try someone else.
+
+<Shot name="project-help" alt="Getting help on a project: Publish, Quotes with Add a quote, Questions to ask, Send Zu and People you contacted yourself" />
+
+## Common questions
+
+### Who on my home can accept a quote?
+
+Only the person who asked for the quotes. Others on the home can read them.
+
+### A business took its quote back. What now?
+
+It shows **The business took this back** and can't be answered. Ask another business, or wait for the others.
+
+### Can I stop new quotes coming in?
+
+Yes. Close the project. Quotes you already have stay.
+
+## What to read next
+
+<Columns cols={2}>
+  <Card title="Compare quotes" icon="scale" iconType="light" href="/inbox/compare-quotes" horizontal>
+    Put quotes side by side
+  </Card>
+  <Card title="Keepsafe" icon="archive" iconType="light" href="/keepsafe/what-is-keepsafe" horizontal>
+    Keep the invoice when the work is done
+  </Card>
+</Columns>
