@@ -16,11 +16,6 @@
       "permanent": true
     },
     {
-      "source": "/account/overview",
-      "destination": "/account/settings",
-      "permanent": true
-    },
-    {
       "source": "/account/payments",
       "destination": "/plans/cancel-zulma-plus",
       "permanent": true
@@ -265,6 +260,7 @@
         "groups": [
           {
             "group": "Get started",
+            "icon": "rocket",
             "pages": [
               "introduction",
               "get-started/create-an-account",
@@ -276,14 +272,18 @@
           },
           {
             "group": "Today",
+            "icon": "calendar",
             "pages": [
+              "today/overview",
               "today/today-page",
               "today/change-your-dock"
             ]
           },
           {
             "group": "My Home",
+            "icon": "house",
             "pages": [
+              "my-home/overview",
               "my-home/set-up-your-home",
               "my-home/add-rooms-and-photos",
               "my-home/add-your-furnace",
@@ -297,7 +297,9 @@
           },
           {
             "group": "Plans and Projects",
+            "icon": "clipboard-list",
             "pages": [
+              "plans-and-projects/overview",
               "plans-and-projects/start-a-project",
               "plans-and-projects/turn-a-job-into-a-project",
               "plans-and-projects/use-a-template",
@@ -306,7 +308,9 @@
           },
           {
             "group": "Atlas",
+            "icon": "map",
             "pages": [
+              "atlas/overview",
               "atlas/find-a-business",
               "atlas/request-a-quote",
               "atlas/save-a-business",
@@ -316,34 +320,43 @@
           },
           {
             "group": "Inbox and quotes",
+            "icon": "inbox",
             "pages": [
+              "inbox/overview",
               "inbox/quotes-and-messages",
               "inbox/compare-quotes"
             ]
           },
           {
             "group": "Keepsafe",
+            "icon": "archive",
             "pages": [
               "keepsafe/what-is-keepsafe"
             ]
           },
           {
             "group": "Zu",
+            "icon": "sparkles",
             "pages": [
+              "zu/overview",
               "zu/what-can-zu-do",
               "zu/draft-a-project-with-zu"
             ]
           },
           {
             "group": "Zulma+ and plans",
+            "icon": "badge-check",
             "pages": [
+              "plans/overview",
               "plans/what-zulma-plus-includes",
               "plans/cancel-zulma-plus"
             ]
           },
           {
             "group": "Account and privacy",
+            "icon": "circle-user",
             "pages": [
+              "account/overview",
               "account/share-your-home",
               "account/settings",
               "account/download-your-data",
@@ -358,6 +371,7 @@
         "groups": [
           {
             "group": "Join Zulma",
+            "icon": "user-plus",
             "pages": [
               "cleaners/overview",
               "cleaners/requirements",
@@ -370,6 +384,7 @@
           },
           {
             "group": "On the job",
+            "icon": "briefcase",
             "pages": [
               "cleaners/getting-your-first-job",
               "cleaners/on-the-job",
@@ -378,6 +393,7 @@
           },
           {
             "group": "Earnings",
+            "icon": "wallet",
             "pages": [
               "cleaners/how-pay-works",
               "cleaners/taxes-and-payouts",
@@ -386,6 +402,7 @@
           },
           {
             "group": "Help",
+            "icon": "life-buoy",
             "pages": [
               "cleaners/faq"
             ]
@@ -406,5 +423,8 @@
       "label": "Open Zulma",
       "href": "https://app.zulma.ca"
     }
+  },
+  "feedback": {
+    "thumbsRating": true
   }
 }

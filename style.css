@@ -251,3 +251,49 @@ html[data-current-path="/"] #header {
 html[data-current-path="/"] .mdx-content {
   margin-top: 0;
 }
+
+/* wider left menu so each question fits on one line (Q3800) */
+@media (min-width: 1024px) {
+  :root {
+    --sidebar-width: 21rem;
+  }
+}
+
+/* page title gets the full column; Copy page sits under it so titles don't wrap */
+#header div:has(> #page-title) {
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+#page-context-menu {
+  margin-left: 0 !important;
+  justify-content: flex-start !important;
+}
+@media (min-width: 640px) {
+  #page-title {
+    font-size: 1.75rem !important;
+    line-height: 2.25rem !important;
+  }
+}
+
+/* group overviews: two card columns only when they fit on one line each */
+@media (max-width: 1279px) {
+  html[data-current-path$="/overview"] .mdx-content .columns {
+    --cols: 1 !important;
+  }
+}
+
+/* below 1440 wide the "On this page" list squeezes the article; give the article its room */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  #content-side-layout {
+    display: none !important;
+  }
+  #pagination {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  #content-container {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
