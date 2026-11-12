@@ -73,6 +73,29 @@
               "plans-and-projects/use-a-template",
               "plans-and-projects/share-your-project"
             ]
+          },
+          {
+            "group": "Atlas",
+            "pages": [
+              "atlas/find-a-business",
+              "atlas/request-a-quote",
+              "atlas/save-a-business",
+              "atlas/write-a-review",
+              "atlas/claim-your-business"
+            ]
+          },
+          {
+            "group": "Inbox and quotes",
+            "pages": [
+              "inbox/quotes-and-messages",
+              "inbox/compare-quotes"
+            ]
+          },
+          {
+            "group": "Keepsafe",
+            "pages": [
+              "keepsafe/what-is-keepsafe"
+            ]
           }
         ]
       },
