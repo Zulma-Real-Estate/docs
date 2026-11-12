@@ -43,6 +43,36 @@
               "get-started/is-zulma-free",
               "get-started/book-a-service"
             ]
+          },
+          {
+            "group": "Today",
+            "pages": [
+              "today/today-page",
+              "today/change-your-dock"
+            ]
+          },
+          {
+            "group": "My Home",
+            "pages": [
+              "my-home/set-up-your-home",
+              "my-home/add-rooms-and-photos",
+              "my-home/add-your-furnace",
+              "my-home/log-work-done",
+              "my-home/track-home-costs",
+              "my-home/store-a-receipt-or-warranty",
+              "my-home/todos-and-supplies",
+              "my-home/weather",
+              "my-home/pets-and-access"
+            ]
+          },
+          {
+            "group": "Plans and Projects",
+            "pages": [
+              "plans-and-projects/start-a-project",
+              "plans-and-projects/turn-a-job-into-a-project",
+              "plans-and-projects/use-a-template",
+              "plans-and-projects/share-your-project"
+            ]
           }
         ]
       },
