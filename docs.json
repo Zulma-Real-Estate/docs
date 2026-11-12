@@ -2,10 +2,6 @@
   "$schema": "https://mintlify.com/docs.json",
   "redirects": [
     {
-      "source": "/cleaners/insurance",
-      "destination": "/cleaners/insurance-requirements"
-    },
-    {
       "source": "/account/credits",
       "destination": "/get-started/faq#is-zulma-free",
       "permanent": true
@@ -257,6 +253,70 @@
     {
       "source": "/zu/what-can-zu-do",
       "destination": "/zu/overview"
+    },
+    {
+      "source": "/cleaners/insurance",
+      "destination": "/pro/get-started/get-verified"
+    },
+    {
+      "source": "/cleaners",
+      "destination": "/pro/get-started/overview"
+    },
+    {
+      "source": "/cleaners/overview",
+      "destination": "/pro/get-started/overview"
+    },
+    {
+      "source": "/cleaners/requirements",
+      "destination": "/pro/get-started/get-verified"
+    },
+    {
+      "source": "/cleaners/apply",
+      "destination": "/pro/get-started/create-your-account"
+    },
+    {
+      "source": "/cleaners/identity-and-checks",
+      "destination": "/pro/get-started/get-verified"
+    },
+    {
+      "source": "/cleaners/insurance-requirements",
+      "destination": "/pro/get-started/get-verified"
+    },
+    {
+      "source": "/cleaners/police-check",
+      "destination": "/pro/get-started/get-verified"
+    },
+    {
+      "source": "/cleaners/whmis",
+      "destination": "/pro/get-started/get-verified"
+    },
+    {
+      "source": "/cleaners/getting-your-first-job",
+      "destination": "/pro/get-started/overview"
+    },
+    {
+      "source": "/cleaners/on-the-job",
+      "destination": "/pro/get-started/overview"
+    },
+    {
+      "source": "/cleaners/cancellations",
+      "destination": "/pro/get-started/faq"
+    },
+    {
+      "source": "/cleaners/how-pay-works",
+      "destination": "/pro/team-and-plan/plans-and-billing"
+    },
+    {
+      "source": "/cleaners/taxes-and-payouts",
+      "destination": "/pro/team-and-plan/plans-and-billing"
+    },
+    {
+      "source": "/cleaners/bonuses",
+      "destination": "/pro/get-started/faq"
+    },
+    {
+      "source": "/cleaners/faq",
+      "destination": "/pro/get-started/faq"
     }
   ],
   "theme": "almond",
@@ -390,44 +450,26 @@
         ]
       },
       {
-        "tab": "For Cleaners",
+        "tab": "Zulma Pro",
+        "hidden": true,
+        "searchable": false,
         "groups": [
           {
-            "group": "Join Zulma",
-            "icon": "user-plus",
+            "group": "Get started",
+            "icon": "rocket",
             "pages": [
-              "cleaners/overview",
-              "cleaners/requirements",
-              "cleaners/apply",
-              "cleaners/identity-and-checks",
-              "cleaners/insurance-requirements",
-              "cleaners/police-check",
-              "cleaners/whmis"
+              "pro/get-started/overview",
+              "pro/get-started/create-your-account",
+              "pro/get-started/get-verified",
+              "pro/get-started/getting-around",
+              "pro/get-started/faq"
             ]
           },
           {
-            "group": "On the job",
-            "icon": "briefcase",
+            "group": "Team and plan",
+            "icon": "users",
             "pages": [
-              "cleaners/getting-your-first-job",
-              "cleaners/on-the-job",
-              "cleaners/cancellations"
-            ]
-          },
-          {
-            "group": "Earnings",
-            "icon": "wallet",
-            "pages": [
-              "cleaners/how-pay-works",
-              "cleaners/taxes-and-payouts",
-              "cleaners/bonuses"
-            ]
-          },
-          {
-            "group": "Help",
-            "icon": "life-buoy",
-            "pages": [
-              "cleaners/faq"
+              "pro/team-and-plan/plans-and-billing"
             ]
           }
         ]

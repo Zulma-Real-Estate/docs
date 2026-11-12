@@ -22,7 +22,6 @@ function front(page) {
 
 const PARTS = {
   "Help": "## Help for homeowners\n\nGuides for the Zulma home app.",
-  "For Cleaners": "## For Zulma Pros\n\nGuides for cleaners who work through the Zulma Pro app. Homeowners don't need these.",
 };
 
 const lines = [
@@ -41,6 +40,8 @@ const lines = [
 ];
 
 for (const tab of docs.navigation.tabs) {
+  // a hidden tab (pages written ahead of their screens) stays out until it is shown
+  if (tab.hidden) continue;
   lines.push(PARTS[tab.tab] ?? `## ${tab.tab}`, "");
   for (const group of tab.groups) {
     lines.push(`### ${group.group}`, "");
