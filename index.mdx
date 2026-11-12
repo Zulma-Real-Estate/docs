@@ -1,124 +1,156 @@
 ---
 title: Zulma Help
 description: Help with Zulma's home app, My Home, Plans and Projects, Atlas, Keepsafe and Zulma+.
-mode: custom
+mode: wide
 ---
 
-<div className="mx-auto flex w-full max-w-5xl flex-col gap-14 px-4 py-12 lg:py-16">
-  <div className="flex flex-col items-center gap-12">
-    <div className="flex w-full max-w-lg flex-col gap-1">
-      <h1 className="text-center text-4xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
-        Zulma Help
-      </h1>
-      <p className="text-center text-balance text-base text-gray-600 dark:text-gray-400 mt-2">
-        Zulma is a home app for homeowners in Canada. It keeps a home's systems, plans and projects, receipts and warranties together in one place, and its directory, Zulma Atlas, lists local home-service businesses by trade and town across Ontario. Zulma has four parts: Home, Plans and Projects, Atlas and Keepsafe. It is free to start, and Zulma+ costs $9.99 a month before HST. Zulma is made by Zulma Resources Inc. in Thorold, Ontario, and was founded by Uba A.
-      </p>
-    </div>
+export const PARTS = [
+  {
+    name: "Today",
+    image: "today",
+    rows: [
+      { icon: "calendar", title: "What does Today show?", line: "Alerts, late to-dos and what's next", href: "/today/today-page" },
+      { icon: "layout-grid", title: "How do I change my dock?", line: "Pick the places your dock shows", href: "/today/change-your-dock" },
+      { icon: "clipboard-list", title: "How do I start a project?", line: "Name the work, add photos, save", href: "/plans-and-projects/start-a-project" },
+    ],
+  },
+  {
+    name: "My Home",
+    image: "my-home",
+    rows: [
+      { icon: "house", title: "How do I set up my home?", line: "Address, rooms, systems and documents", href: "/my-home/set-up-your-home" },
+      { icon: "image", title: "How do I add my rooms?", line: "Name each space and add photos", href: "/my-home/add-rooms-and-photos" },
+      { icon: "wallet", title: "How do I track home costs?", line: "Log what your home costs you", href: "/my-home/track-home-costs" },
+    ],
+  },
+  {
+    name: "Plans and Projects",
+    image: "projects",
+    rows: [
+      { icon: "clipboard-list", title: "How do I start a project?", line: "Name the work, add photos, save", href: "/plans-and-projects/start-a-project" },
+      { icon: "send", title: "How do I get quotes?", line: "Publish your project to businesses", href: "/plans-and-projects/share-your-project" },
+      { icon: "scale", title: "How do I compare quotes?", line: "See every quote side by side", href: "/inbox/compare-quotes" },
+    ],
+  },
+  {
+    name: "Atlas",
+    image: "atlas",
+    rows: [
+      { icon: "map", title: "How do I find a plumber?", line: "Choose your town and the kind of work", href: "/atlas/find-a-business" },
+      { icon: "message-square", title: "How do I ask for a quote?", line: "Describe the job and send it", href: "/atlas/request-a-quote" },
+      { icon: "star", title: "How do I review a business?", line: "Rate the work and say how it went", href: "/atlas/write-a-review" },
+    ],
+  },
+  {
+    name: "Keepsafe",
+    image: "keepsafe",
+    rows: [
+      { icon: "archive", title: "What is Keepsafe?", line: "Invoices that join your home's history", href: "/keepsafe/what-is-keepsafe" },
+      { icon: "file-text", title: "How do I store a receipt?", line: "Upload it to Documents in My Home", href: "/my-home/store-a-receipt-or-warranty" },
+      { icon: "book-open", title: "How do I log work done?", line: "Keep a record of what was done", href: "/my-home/log-work-done" },
+    ],
+  },
+];
 
-    <div className="flex w-full max-w-lg flex-col gap-4">
-      <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:items-stretch">
-        <div className="kb-search-entry min-w-0 w-full flex-1">
+export const Parts = () => {
+  const [active, setActive] = useState(0);
+  const part = PARTS[active];
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-wrap gap-2" role="tablist">
+        {PARTS.map((p, i) => (
           <button
+            key={p.name}
             type="button"
-            data-search-trigger
-            className="pointer-events-auto flex h-11 w-full cursor-pointer items-center justify-between gap-2 truncate rounded-full bg-gray-50 pl-4 pr-3 text-left text-sm font-normal leading-6 text-gray-500 shadow-none hover:text-gray-500 ring-1 ring-gray-100 hover:ring-gray-200 dark:bg-white/[0.04] dark:text-white/50 dark:hover:text-white/50 dark:ring-1 dark:ring-white/[0.08] dark:hover:ring-white/15"
+            role="tab"
+            aria-selected={i === active}
+            onClick={() => setActive(i)}
+            className={
+              "cursor-pointer whitespace-nowrap rounded-full px-4 py-2 text-sm font-medium transition " +
+              (i === active
+                ? "bg-gray-900 text-white dark:bg-white dark:text-gray-900"
+                : "bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-white/10 dark:text-gray-300 dark:hover:bg-white/15")
+            }
           >
-            <div className="flex min-w-0 flex-1 items-center gap-2">
-              <Icon
-                icon="search"
-                size={14}
-                className="shrink-0 text-gray-700 dark:text-gray-400"
-              />
-              <div className="min-w-0 truncate font-normal text-gray-500 hover:text-gray-500 dark:text-white/50 dark:hover:text-white/50">
-                Search for articles
-              </div>
-            </div>
-            <span className="flex-none text-xs font-semibold text-gray-500 hover:text-gray-500 dark:text-white/50 dark:hover:text-white/50">
-              ⌘K
-            </span>
+            {p.name}
           </button>
-        </div>
-
-        <button
-          type="button"
-          id="custom-homepage-assistant-entry"
-          data-assistant-trigger
-          aria-label="Ask AI"
-          className="group/ai flex pointer-events-auto h-11 w-full shrink-0 cursor-pointer flex-row items-center justify-center gap-1.5 rounded-full bg-gray-50 px-4 text-sm font-normal leading-6 text-gray-500 shadow-none ring-1 ring-gray-100 hover:text-gray-600 hover:ring-gray-200 dark:bg-white/[0.04] dark:text-white/50 dark:ring-1 dark:ring-white/[0.08] dark:hover:text-white/70 dark:hover:ring-white/15 sm:w-auto"
-        >
-          <Icon
-            icon="sparkles"
-            size={16}
-            className="shrink-0 text-gray-700 group-hover/ai:text-gray-800 dark:text-gray-400 dark:group-hover/ai:text-gray-200"
-          />
-          <span className="whitespace-nowrap text-gray-500 dark:text-white/50">Ask AI</span>
-        </button>
+        ))}
       </div>
-
-      <div className="flex flex-wrap items-center justify-center gap-3 text-sm text-gray-500 dark:text-gray-400">
-        <span>Popular searches</span>
-        <div className="flex flex-wrap justify-center gap-1">
-          {['Atlas', 'Keepsafe', 'Zulma+'].map((term) => (
-            <button
-              key={term}
-              type="button"
-              data-popular-search
-              data-term={term}
-              className="rounded-md bg-gray-100 px-1.5 py-1 text-xs font-semibold text-gray-600 transition hover:bg-gray-200 dark:bg-white/10 dark:text-gray-300 dark:hover:bg-white/15"
+      <div className="grid grid-cols-1 items-center gap-6 lg:grid-cols-2">
+        <div className="flex flex-col gap-1">
+          {part.rows.map((r) => (
+            <a
+              key={r.href + r.title}
+              href={r.href}
+              className="group flex items-center gap-4 rounded-2xl px-4 py-4 no-underline transition hover:bg-gray-100 dark:hover:bg-white/5"
+              style={{ borderBottom: "none" }}
             >
-              {term}
-            </button>
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10 dark:bg-primary/20">
+                <Icon icon={r.icon} size={18} color="#7D632D" />
+              </span>
+              <span className="flex min-w-0 flex-1 flex-col">
+                <span className="truncate text-base font-semibold text-gray-900 dark:text-gray-50">{r.title}</span>
+                <span className="truncate text-sm text-gray-600 dark:text-gray-400">{r.line}</span>
+              </span>
+              <Icon icon="chevron-right" size={16} className="shrink-0 text-gray-400" />
+            </a>
           ))}
         </div>
+        <div className="overflow-hidden rounded-2xl bg-gray-50 p-3 ring-1 ring-gray-100 dark:bg-white/[0.03] dark:ring-white/10">
+          <img
+            src={`/images/home/${part.image}-light.webp`}
+            alt={`${part.name} in Zulma`}
+            className="block w-full rounded-xl dark:hidden"
+            style={{ margin: 0 }}
+            noZoom
+          />
+          <img
+            src={`/images/home/${part.image}-dark.webp`}
+            alt={`${part.name} in Zulma`}
+            className="hidden w-full rounded-xl dark:block"
+            style={{ margin: 0 }}
+            noZoom
+          />
+        </div>
       </div>
     </div>
+  );
+};
+
+<div className="not-prose flex w-full flex-col">
+  <div className="flex flex-col items-start gap-4 pb-10 pt-2">
+    <h1 className="text-4xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">Zulma Help</h1>
+    <p className="text-lg text-gray-600 dark:text-gray-400">Answers about Zulma, the home app for homeowners in Canada.</p>
+    <a href="/introduction" className="mt-2 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white no-underline hover:opacity-90" style={{ borderBottom: "none" }}>
+      Get started
+      <Icon icon="arrow-right" size={14} color="#ffffff" />
+    </a>
   </div>
 
-  <div className="flex flex-col gap-4">
-    <h2 className="text-base font-medium text-gray-900 dark:text-gray-50">Guides</h2>
-    <Columns cols={2}>
-    <Card title="Get started" icon="rocket" iconType="light" href="/introduction">
-      What Zulma is, signing in, and where it works
+  <div className="flex flex-col gap-6 border-t border-gray-100 py-10 dark:border-white/10">
+    <h2 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">Parts of Zulma</h2>
+    <Parts />
+  </div>
+
+  <div className="flex flex-col gap-6 border-t border-gray-100 py-10 dark:border-white/10">
+    <h2 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">More help</h2>
+    <Columns cols={3}>
+    <Card title="Zu" icon="sparkles" iconType="light" href="/zu/what-can-zu-do" cta="2 articles">
+      Drafts a project from your photos
     </Card>
-    <Card title="Today" icon="calendar" iconType="light" href="/today/today-page">
-      What needs you now
+    <Card title="Zulma+ and plans" icon="badge-check" iconType="light" href="/plans/what-zulma-plus-includes" cta="2 articles">
+      What Zulma+ adds and costs
     </Card>
-    <Card title="My Home" icon="house" iconType="light" href="/my-home/set-up-your-home">
-      Your home's rooms, systems, documents and history
-    </Card>
-    <Card title="Plans and Projects" icon="clipboard-list" iconType="light" href="/plans-and-projects/start-a-project">
-      Plan work and get quotes on a project
-    </Card>
-    <Card title="Atlas" icon="map" iconType="light" href="/atlas/find-a-business">
-      Local home-service businesses in Ontario
-    </Card>
-    <Card title="Inbox and quotes" icon="inbox" iconType="light" href="/inbox/quotes-and-messages">
-      Quotes, messages and invoices from businesses
-    </Card>
-    <Card title="Keepsafe" icon="archive" iconType="light" href="/keepsafe/what-is-keepsafe">
-      Invoices that join your home's history
-    </Card>
-    <Card title="Zu" icon="sparkles" iconType="light" href="/zu/what-can-zu-do">
-      Zulma's helper for projects and documents
-    </Card>
-    <Card title="Zulma+ and plans" icon="badge-check" iconType="light" href="/plans/what-zulma-plus-includes">
-      What Zulma+ adds and what it costs
-    </Card>
-    <Card title="Account and privacy" icon="circle-user" iconType="light" href="/account/delete-your-account">
-      Sharing, settings, your data and your account
+    <Card title="Account and privacy" icon="circle-user" iconType="light" href="/account/settings" cta="5 articles">
+      Sharing, settings and your data
     </Card>
     </Columns>
   </div>
 
-  <div className="flex flex-col gap-4">
-    <h2 className="text-base font-medium text-gray-900 dark:text-gray-50">Most asked</h2>
-    <Columns cols={2}>
-    <Card title="How do I find a plumber in my town?" href="/atlas/find-a-business" />
-    <Card title="How do I store a receipt or warranty?" href="/my-home/store-a-receipt-or-warranty" />
-    <Card title="How do I turn a job into a project?" href="/plans-and-projects/turn-a-job-into-a-project" />
-    <Card title="What does Zulma+ include?" href="/plans/what-zulma-plus-includes" />
-    <Card title="Can I book a service through Zulma?" href="/get-started/book-a-service" />
-    <Card title="How do I delete my account?" href="/account/delete-your-account" />
-    </Columns>
+  <div className="flex flex-col gap-2 border-t border-gray-100 py-10 dark:border-white/10">
+    <h2 className="text-base font-medium text-gray-900 dark:text-gray-50">About Zulma</h2>
+    <p className="max-w-3xl text-sm text-gray-600 dark:text-gray-400">
+      Zulma is a home app for homeowners in Canada. It keeps a home's systems, plans and projects, receipts and warranties together in one place, and its directory, Zulma Atlas, lists local home-service businesses by trade and town across Ontario. Zulma has four parts: Home, Plans and Projects, Atlas and Keepsafe. It is free to start, and Zulma+ costs $9.99 a month before HST. Zulma is made by Zulma Resources Inc. in Thorold, Ontario, and was founded by Uba A.
+    </p>
   </div>
 </div>
