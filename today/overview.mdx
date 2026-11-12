@@ -1,17 +1,98 @@
 ---
 title: "Today"
-mode: "wide"
 sidebarTitle: "Overview"
-description: "Today in Zulma shows what needs you now at your home: alerts, late to-dos, unread messages, this week, and shortcuts to add things."
+mode: "wide"
+keywords: ["Today page", "dashboard", "home dashboard", "what needs attention", "system ages", "home plan", "setup guide", "weather alert"]
+description: "Today is the first page you see in Zulma. It shows what needs you now at your home, this week, your plan, how old your systems are and what was done lately."
 ---
 
-Today in Zulma shows what needs you now at your home: alerts, late to-dos, unread messages, this week, and shortcuts to add things.
+import { Shot } from '/snippets/shot.jsx';
+
+Today is the home page of the Zulma app at [app.zulma.ca/today](https://app.zulma.ca/today). Everything on it is read from your home's record, so it fills in as you add to [My Home](/my-home/overview). Today never shows a value, an estimate or a score for your home.
+
+<Shot name="today" alt="The top of Today: weather, shortcuts, a notice, the week and the home card" />
+
+## The top of the page
+
+| Part | What it shows |
+| --- | --- |
+| Weather and date | The weather at your home right now |
+| Shortcuts | **Start a project**, **New to-do**, **Log something** and **Add a supply** |
+| Notices | Weather alerts, unread messages, late to-dos, overdue supplies and questions to decide. Each one opens the page it belongs to. Close one with its **x**. |
+| The count | How many things are critical, waiting on a decision, booked or pending today, or **All done** |
+| The week | The next seven days, with what lands on each one. The calendar button opens the full calendar. |
+| The home card | Your address, the kind of home and how many of its 7 key details are filled in |
+
+### The home card
+
+The card is your home at a glance. Select **+ Beds**, **+ Baths**, **+ Size** or **+ Year built** to fill in what is missing, or **Edit** for everything. The ring shows how many of the 7 details are on the record: kind of home, year built, size, bedrooms, bathrooms, what you paid and a photo.
+
+The **Home** and **Money** switch turns the card over. **Money** shows what was spent on the home and, for owners, the equity. Money is only shown to the home's owners.
+
+If you have more than one home, the cards stack. Select a card to make it the open home, and the whole page changes to that home.
+
+## Further down
+
+<Shot name="today-plan" alt="Your plan on Today: the next project, a list of planned work and its cost" />
+
+**Your plan.** The work coming up at your home, booked or not yet booked. Switch between **Timeline**, **Next up** and **Seasons**. The totals show what is **Committed** and what is **Still a guess**. **See the plan** opens the full [plan](/plans-and-projects/overview).
+
+<Shot name="today-ages" alt="System ages on Today, from near the end to years away" />
+
+**System ages.** Each system you added sits on a line from **Near the end** to **Years away**, measured against how long that kind usually lasts. Two systems due in the same year stand out at a glance. **See every system** opens [Systems](/my-home/add-your-furnace).
+
+<Shot name="today-record" alt="On the record: money spent this year by kind, Zu Check and the latest entries" />
+
+**On the record.** What was spent on the home over 3 months, 6 months or this year, split by kind of cost, beside **Zu Check**, the local rules that apply to your home and what Zulma holds for each. **Lately** lists the newest entries in the record. **Log something** adds one, and **See the whole record** opens [Activity](/my-home/log-work-done).
+
+**Where you left off.** The businesses you looked at last on [Atlas](/atlas/overview), measured from your home's town.
+
+**One question.** When one fact would make Today more useful, like the year a system went in, the page asks for it at the bottom.
+
+## The setup guide
+
+On a computer, the **Setup guide** button sits at the bottom right with a progress ring. It opens a list of steps, and each one ticks itself when your home's record shows it is done:
 
 <Columns cols={2}>
-  <Card title="What does the Today page show?" icon="layout-dashboard" iconType="light" href="/today/today-page">
-    What needs you now
+  <div>
+    - Your home: its 7 key details
+    - Home questions
+    - People on the home
+  </div>
+  <div>
+    - Documents and a first project
+    - Projects and quotes
+    - Around the home: a room, a to-do, a supply
+  </div>
+</Columns>
+
+The button goes for good once every step is done. **Hide the guide** tucks it away, and Settings brings it back.
+
+<Note>
+  Before you add a home, Today shows **Add your home** with a box for your address. See [Set up your home](/my-home/set-up-your-home).
+</Note>
+
+## Common questions
+
+### Why is Today empty?
+
+Today reads your home's record. Add your address first, then a system, a to-do or a project, and Today fills in.
+
+### Can someone I share my home with see the money?
+
+No. What was paid for a home stays with its owners. Others on the home see the rest of Today.
+
+### Does Today show what my home is worth?
+
+No. Today never shows a value, an estimate or a score.
+
+## What to read next
+
+<Columns cols={2}>
+  <Card title="Get around Zulma" icon="layout-grid" iconType="light" href="/get-started/getting-around" horizontal>
+    The menu, the dock and the top bar
   </Card>
-  <Card title="How do I change what my dock shows?" icon="layout-grid" iconType="light" href="/today/change-your-dock">
-    Pick the places in your dock
+  <Card title="Set up your home" icon="house" iconType="light" href="/my-home/set-up-your-home" horizontal>
+    Add the details Today reads
   </Card>
 </Columns>

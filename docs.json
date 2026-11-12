@@ -245,6 +245,14 @@
     {
       "source": "/get-started/phone-app",
       "destination": "/get-started/faq#is-there-a-zulma-phone-app"
+    },
+    {
+      "source": "/today/today-page",
+      "destination": "/today/overview"
+    },
+    {
+      "source": "/today/change-your-dock",
+      "destination": "/get-started/getting-around"
     }
   ],
   "theme": "almond",
@@ -280,6 +288,7 @@
             "pages": [
               "introduction",
               "get-started/create-an-account",
+              "get-started/getting-around",
               "get-started/faq"
             ]
           },
@@ -287,9 +296,7 @@
             "group": "Today",
             "icon": "calendar",
             "pages": [
-              "today/overview",
-              "today/today-page",
-              "today/change-your-dock"
+              "today/overview"
             ]
           },
           {
