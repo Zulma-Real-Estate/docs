@@ -238,3 +238,8 @@ ul:is(:has(> #topbar-cta-button), :has(> li.navbar-link)) {
     }
   }
 }
+
+/* the page description is the first sentence of every page, so it is not shown twice (kept as the meta description) */
+#header > div.mt-2.text-lg {
+  display: none;
+}

@@ -4,15 +4,245 @@
     {
       "source": "/cleaners/insurance",
       "destination": "/cleaners/insurance-requirements"
+    },
+    {
+      "source": "/account/credits",
+      "destination": "/get-started/is-zulma-free",
+      "permanent": true
+    },
+    {
+      "source": "/account/disputes",
+      "destination": "/account/contact-zulma",
+      "permanent": true
+    },
+    {
+      "source": "/account/overview",
+      "destination": "/account/settings",
+      "permanent": true
+    },
+    {
+      "source": "/account/payments",
+      "destination": "/plans/cancel-zulma-plus",
+      "permanent": true
+    },
+    {
+      "source": "/memberships/plans-and-perks",
+      "destination": "/plans/what-zulma-plus-includes",
+      "permanent": true
+    },
+    {
+      "source": "/service-area",
+      "destination": "/get-started/where-zulma-works",
+      "permanent": true
+    },
+    {
+      "source": "/how-it-works",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/booking/add-ons",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/booking/cancellation",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/booking/how-to-book",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/booking/recurring",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/by-room",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/car-detailing",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/deep-clean",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/laundry",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/lawn-care",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/move-in-out",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/overview",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/post-construction",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/standard-clean",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/apex",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/billing",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/contracts",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/faq",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/getting-a-quote",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/overview",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/quality-and-compliance",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/service-tiers",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/supplies-and-access",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/whats-included",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/billing",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/calendar-setup",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/faq",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/getting-started",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/how-turnovers-work",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/laundry-tiers",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/multi-property",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/overview",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/photo-proof-and-issues",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/pricing",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/supplies-and-linen",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/whats-included",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/trust/faq",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/trust/insurance",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/trust/vetting",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/trust/background-checks",
+      "destination": "/introduction",
+      "permanent": true
     }
   ],
   "theme": "almond",
-  "name": "Zulma Help Center",
-  "description": "Guides, service details, and support for Zulma customers, businesses, hosts, and crew across the Niagara region.",
+  "name": "Zulma Help",
+  "description": "Help for Zulma, the home app for homeowners in Canada: My Home, Plans and Projects, Atlas, Keepsafe and Zulma+.",
   "colors": {
-    "primary": "#ebe3cd",
-    "light": "#7a746c",
-    "dark": "#0c0c0c"
+    "primary": "#7D632D",
+    "light": "#ebe3cd",
+    "dark": "#7D632D"
   },
   "favicon": "https://media.brand.dev/9d8aa190-855d-4b76-b09c-725c2478e64b.svg",
   "icons": {
@@ -22,107 +252,104 @@
     "eyebrows": "breadcrumbs"
   },
   "contextual": {
-    "options": ["copy", "view", "assistant"]
+    "options": [
+      "copy",
+      "view",
+      "assistant"
+    ]
   },
   "navigation": {
     "tabs": [
       {
-        "tab": "For Customers",
+        "tab": "Help",
         "groups": [
           {
-            "group": "Get Started",
-            "pages": ["introduction", "how-it-works", "service-area"]
-          },
-          {
-            "group": "Services",
+            "group": "Get started",
             "pages": [
-              "services/overview",
-              "services/standard-clean",
-              "services/deep-clean",
-              "services/move-in-out",
-              "services/post-construction",
-              "services/by-room",
-              "services/lawn-care",
-              "services/car-detailing",
-              "services/laundry"
+              "introduction",
+              "get-started/create-an-account",
+              "get-started/phone-app",
+              "get-started/where-zulma-works",
+              "get-started/is-zulma-free",
+              "get-started/book-a-service"
             ]
           },
           {
-            "group": "Booking",
+            "group": "Today",
             "pages": [
-              "booking/how-to-book",
-              "booking/recurring",
-              "booking/add-ons",
-              "booking/cancellation"
+              "today/today-page",
+              "today/change-your-dock"
             ]
           },
           {
-            "group": "Memberships",
-            "pages": ["memberships/plans-and-perks"]
-          },
-          {
-            "group": "Account",
+            "group": "My Home",
             "pages": [
-              "account/overview",
-              "account/payments",
-              "account/credits",
-              "account/disputes"
+              "my-home/set-up-your-home",
+              "my-home/add-rooms-and-photos",
+              "my-home/add-your-furnace",
+              "my-home/log-work-done",
+              "my-home/track-home-costs",
+              "my-home/store-a-receipt-or-warranty",
+              "my-home/todos-and-supplies",
+              "my-home/weather",
+              "my-home/pets-and-access"
             ]
           },
           {
-            "group": "Trust & Safety",
-            "pages": ["trust/vetting", "trust/insurance", "trust/faq"]
-          }
-        ]
-      },
-      {
-        "tab": "For Businesses",
-        "groups": [
-          {
-            "group": "Commercial cleaning",
+            "group": "Plans and Projects",
             "pages": [
-              "commercial/overview",
-              "commercial/getting-a-quote",
-              "commercial/whats-included",
-              "commercial/service-tiers",
-              "commercial/supplies-and-access",
-              "commercial/quality-and-compliance",
-              "commercial/contracts",
-              "commercial/billing",
-              "commercial/faq"
+              "plans-and-projects/start-a-project",
+              "plans-and-projects/turn-a-job-into-a-project",
+              "plans-and-projects/use-a-template",
+              "plans-and-projects/share-your-project"
             ]
           },
           {
-            "group": "Apex",
-            "pages": ["commercial/apex"]
-          }
-        ]
-      },
-      {
-        "tab": "For Hosts",
-        "groups": [
-          {
-            "group": "Getting started",
+            "group": "Atlas",
             "pages": [
-              "hosts/overview",
-              "hosts/getting-started",
-              "hosts/calendar-setup",
-              "hosts/multi-property"
+              "atlas/find-a-business",
+              "atlas/request-a-quote",
+              "atlas/save-a-business",
+              "atlas/write-a-review",
+              "atlas/claim-your-business"
             ]
           },
           {
-            "group": "Your turnovers",
+            "group": "Inbox and quotes",
             "pages": [
-              "hosts/how-turnovers-work",
-              "hosts/whats-included",
-              "hosts/laundry-tiers",
-              "hosts/supplies-and-linen",
-              "hosts/photo-proof-and-issues"
+              "inbox/quotes-and-messages",
+              "inbox/compare-quotes"
             ]
           },
           {
-            "group": "Pricing & billing",
-            "pages": ["hosts/pricing", "hosts/billing", "hosts/faq"]
+            "group": "Keepsafe",
+            "pages": [
+              "keepsafe/what-is-keepsafe"
+            ]
+          },
+          {
+            "group": "Zu",
+            "pages": [
+              "zu/what-can-zu-do",
+              "zu/draft-a-project-with-zu"
+            ]
+          },
+          {
+            "group": "Zulma+ and plans",
+            "pages": [
+              "plans/what-zulma-plus-includes",
+              "plans/cancel-zulma-plus"
+            ]
+          },
+          {
+            "group": "Account and privacy",
+            "pages": [
+              "account/share-your-home",
+              "account/settings",
+              "account/download-your-data",
+              "account/delete-your-account",
+              "account/contact-zulma"
+            ]
           }
         ]
       },
@@ -159,7 +386,9 @@
           },
           {
             "group": "Help",
-            "pages": ["cleaners/faq"]
+            "pages": [
+              "cleaners/faq"
+            ]
           }
         ]
       }
@@ -174,8 +403,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Book a service",
-      "href": "https://app.zulma.ca/configure"
+      "label": "Open Zulma",
+      "href": "https://app.zulma.ca"
     }
   }
 }
