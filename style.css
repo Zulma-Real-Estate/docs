@@ -239,8 +239,8 @@ ul:is(:has(> #topbar-cta-button), :has(> li.navbar-link)) {
   }
 }
 
-/* the page description is the first sentence of every page, so it is not shown twice (kept as the meta description) */
-#header > div.mt-2.text-lg {
+/* the page description shows under the title as the lead (Coinbase style); the Pro pages still open with the same sentence, so it stays hidden there */
+html[data-current-path^="/cleaners/"] #header > div.mt-2.text-lg {
   display: none;
 }
 
@@ -252,22 +252,6 @@ html[data-current-path="/"] .mdx-content {
   margin-top: 0;
 }
 
-/* wider left menu so each question fits on one line (Q3800) */
-@media (min-width: 1024px) {
-  :root {
-    --sidebar-width: 21rem;
-  }
-}
-
-/* page title gets the full column; Copy page sits under it so titles don't wrap */
-#header div:has(> #page-title) {
-  flex-direction: column !important;
-  align-items: flex-start !important;
-}
-#page-context-menu {
-  margin-left: 0 !important;
-  justify-content: flex-start !important;
-}
 @media (min-width: 640px) {
   #page-title {
     font-size: 1.75rem !important;
