@@ -4,6 +4,236 @@
     {
       "source": "/cleaners/insurance",
       "destination": "/cleaners/insurance-requirements"
+    },
+    {
+      "source": "/account/credits",
+      "destination": "/get-started/is-zulma-free",
+      "permanent": true
+    },
+    {
+      "source": "/account/disputes",
+      "destination": "/account/contact-zulma",
+      "permanent": true
+    },
+    {
+      "source": "/account/overview",
+      "destination": "/account/settings",
+      "permanent": true
+    },
+    {
+      "source": "/account/payments",
+      "destination": "/plans/cancel-zulma-plus",
+      "permanent": true
+    },
+    {
+      "source": "/memberships/plans-and-perks",
+      "destination": "/plans/what-zulma-plus-includes",
+      "permanent": true
+    },
+    {
+      "source": "/service-area",
+      "destination": "/get-started/where-zulma-works",
+      "permanent": true
+    },
+    {
+      "source": "/how-it-works",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/booking/add-ons",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/booking/cancellation",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/booking/how-to-book",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/booking/recurring",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/by-room",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/car-detailing",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/deep-clean",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/laundry",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/lawn-care",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/move-in-out",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/overview",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/post-construction",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/services/standard-clean",
+      "destination": "/get-started/book-a-service",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/apex",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/billing",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/contracts",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/faq",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/getting-a-quote",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/overview",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/quality-and-compliance",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/service-tiers",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/supplies-and-access",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/whats-included",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/billing",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/calendar-setup",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/faq",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/getting-started",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/how-turnovers-work",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/laundry-tiers",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/multi-property",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/overview",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/photo-proof-and-issues",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/pricing",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/supplies-and-linen",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/hosts/whats-included",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/trust/faq",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/trust/insurance",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/trust/vetting",
+      "destination": "/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/trust/background-checks",
+      "destination": "/introduction",
+      "permanent": true
     }
   ],
   "theme": "almond",
