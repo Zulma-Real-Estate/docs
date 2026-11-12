@@ -1,0 +1,116 @@
+# Zulma Help
+
+> Guides for Zulma, the home app for homeowners in Canada. Zulma keeps a home's record (rooms, systems, documents, costs and work done), plans and projects, quotes from local businesses, and invoices from businesses (Keepsafe) in one place. Its directory, Zulma Atlas, lists home-service businesses by trade and town in Ontario.
+
+Key facts:
+
+- The app is at https://app.zulma.ca. A Zulma account is free.
+- Zulma+ costs $9.99 a month or $99 a year before HST. It adds 50 GB of space, folders and PDF search, more AI use, and up to 25 projects out for quotes at once. Billing is on the web only.
+- Zu is Zulma's AI helper. It drafts projects and reads quotes, invoices, labels and files. Nothing it finds is saved until the person checks it.
+- Zulma is made by Zulma Resources Inc., operating as Zulma Real Estate, in Thorold, Ontario. Contact: hello@zulma.ca.
+- Each page below is also available as Markdown at the same URL with .md added. The full text of every page is at https://help.zulma.ca/llms-full.txt.
+
+## Help for homeowners
+
+Guides for the Zulma home app.
+
+### Get started
+
+- [Get started with Zulma](https://help.zulma.ca/introduction.md): Zulma is a free home app for homeowners in Canada. Keep your home's record, plan projects, find local businesses and keep every invoice in one place.
+- [Create an account](https://help.zulma.ca/get-started/create-an-account.md): Create a free Zulma account at app.zulma.ca/signup with Google, Apple, or your name, email and a password. Then sign in the same way, or with an emailed link.
+- [Get around Zulma](https://help.zulma.ca/get-started/getting-around.md): On a computer, Zulma's menu sits on the left. On a phone, a dock of shortcuts sits at the bottom. Search, your homes, alerts and your account are in the bar at the top.
+- [FAQ](https://help.zulma.ca/get-started/faq.md): Short answers about Zulma: the phone app, where it works, what it costs, booking, and who makes it.
+
+### Today
+
+- [Today](https://help.zulma.ca/today/overview.md): Today is the first page you see in Zulma. It shows what needs you now at your home, this week, your plan, how old your systems are and what was done lately.
+
+### My Home
+
+- [My Home](https://help.zulma.ca/my-home/overview.md): My Home is your home's record in Zulma: its rooms, systems, the work done on it, what it cost, its papers, to-dos, supplies, weather, pets and ways in.
+- [Set up your home](https://help.zulma.ca/my-home/set-up-your-home.md): Add your home's address on Today, then fill in its 7 key details: kind of home, year built, size, bedrooms, bathrooms, what you paid and a photo. Nothing is required.
+- [Add rooms and photos](https://help.zulma.ca/my-home/add-rooms-and-photos.md): In My Home, open Spaces and select Add a space. Name the room, add photos, and note its flooring, special surfaces and anything to avoid. Each space keeps the work done in it.
+- [Add your systems](https://help.zulma.ca/my-home/add-your-furnace.md): In My Home, open Systems and select Add a system. Choose the kind, like a furnace, and add the year it went in. Zulma shows how many years it has left on a typical life.
+- [Log work done](https://help.zulma.ca/my-home/log-work-done.md): In My Home, open Activity and select Log something. Write what was done, who did it, when and where, choose the kind of work, and attach the receipt. Each room keeps its own history.
+- [Track home costs](https://help.zulma.ca/my-home/track-home-costs.md): In My Home, open Money to see what your home costs: spending by period and kind, regular costs like property tax and insurance, and every payment. Only owners and co-owners see Money.
+- [Store receipts and warranties](https://help.zulma.ca/my-home/store-a-receipt-or-warranty.md): In My Home, open Documents, select Add, then Upload a file. Name it, say what kind it is and whether it goes with the home if you sell. Warranties ending in the next 60 days are listed under Ending soon.
+- [To-dos and supplies](https://help.zulma.ca/my-home/todos-and-supplies.md): In My Home, To-dos holds the jobs you mean to get to, sorted by when they're due. Supplies tracks the things that run out, like furnace filters and batteries, and says when each is due again.
+- [Weather](https://help.zulma.ca/my-home/weather.md): In My Home, Weather shows the forecast and Environment Canada alerts for your home, step-by-step guides for a power cut, water in the basement, an ice storm or a snowstorm, a 15-item kit and help nearby.
+- [Pets and access](https://help.zulma.ca/my-home/pets-and-access.md): In My Home, Pets keeps the animals that live at home and what a visitor should know about them. Access keeps door codes, lockboxes and keys, hidden until someone who can edit the home asks to see them.
+
+### Plans and Projects
+
+- [Plans and Projects](https://help.zulma.ca/plans-and-projects/overview.md): Plan in My Home lists every project for your home: what is next, when each one lands and what the house costs this year. A project can stay private on your plan or be published so businesses can quote it.
+- [Start a project](https://help.zulma.ca/plans-and-projects/start-a-project.md): Select Start a project on Today or on your Plan. Name the work, add photos, say what needs doing, then Save as draft to keep it on your plan or Publish to get quotes.
+- [Turn a job into a project](https://help.zulma.ca/plans-and-projects/turn-a-job-into-a-project.md): Start a project from wherever the job shows up in Zulma: a room in Spaces, a system that is due, a template, a business on Atlas or one in your Favourites. The project opens already filled in.
+- [Use a template](https://help.zulma.ca/plans-and-projects/use-a-template.md): A template is a ready-made set of projects for one goal, like Move the water away or Ready for winter. Open Templates, choose one and select Use this template to put its projects on your plan.
+- [Get quotes for a project](https://help.zulma.ca/plans-and-projects/share-your-project.md): Open your project and select Publish. Confirm your mobile number once, and you get a link to share. Turn on Send Zu and Zu sends it to three businesses that fit the job. Quotes arrive in your Inbox.
+
+### Atlas
+
+- [Atlas](https://help.zulma.ca/atlas/overview.md): Zulma Atlas is a directory of local home-service businesses in Ontario, by trade and town. See what each one does, where it works, its hours and reviews, then request a quote or start a project with it.
+- [Find a business](https://help.zulma.ca/atlas/find-a-business.md): Open Atlas, choose your town and the kind of work, like plumbing. Narrow the list by distance, status and the jobs each business lists, sort it, then open a business to see its licence, reviews, services, towns and hours.
+- [Request a quote](https://help.zulma.ca/atlas/request-a-quote.md): On a business's Atlas page, select Request a quote. Choose what you need, tell them more with photos, say how soon and where, then select Send. The business sees your town, never your street.
+- [Save to Favourites](https://help.zulma.ca/atlas/save-a-business.md): Favourites is your list of who you call for your home. Save a business from Atlas with its bookmark, add someone who isn't on Atlas, and keep the names Zulma finds in your past jobs and projects.
+- [Write a review](https://help.zulma.ca/atlas/write-a-review.md): On a business's Atlas page, select Write a review. Tap a star, say whether you would hire them again and what happened, then select Post the review. Nobody is paid for a review, and a business can reply but never remove one.
+- [Claim your business](https://help.zulma.ca/atlas/claim-your-business.md): On your business's Atlas page, select Claim this business. Make a Zulma account, then confirm it is yours with a six-digit code sent to your work email, or send Zulma your details. Claiming lets you reply to reviews and get quote requests.
+
+### Inbox and quotes
+
+- [Inbox and quotes](https://help.zulma.ca/inbox/overview.md): Inbox holds everything businesses and Zulma send you: chats about a visit, notes from Zulma, quotes and replies from Atlas businesses, and invoices waiting in Keepsafe. Each quote also shows on its project, side by side with the others.
+- [Quotes and messages](https://help.zulma.ca/inbox/quotes-and-messages.md): Quotes from Atlas businesses arrive in Inbox under Atlas, and on their project. Open one to read the price, what is included and when they can start, then Message them, Accept or say No thanks.
+- [Compare quotes](https://help.zulma.ca/inbox/compare-quotes.md): Open the project and select Compare under its quotes. They show side by side: total with HST, deposit, when they can start and finish, what's included, the late cancel terms and how long each quote is good for.
+
+### Keepsafe
+
+- [Keepsafe](https://help.zulma.ca/keepsafe/what-is-keepsafe.md): Keepsafe is where invoices and documents from businesses wait in your Inbox until you say yes. Check what Zu filled in, choose the home, and select Add to my Homesake to put it on your home's history with its file.
+
+### Zu
+
+- [Zu](https://help.zulma.ca/zu/overview.md): Zu is Zulma's helper for your home. He drafts projects from your words and photos, reads quotes, receipts and invoices, scans appliance labels, fills in your home from a file, and checks what the law asks of your home. Nothing he finds is saved until you check it.
+- [Draft a project with Zu](https://help.zulma.ca/zu/draft-a-project-with-zu.md): Tell Zu what you want done and add a photo. He asks what a business would need to know, one question at a time, and writes the project beside the chat. Select Check and publish to review it, then save or publish.
+
+### Zulma+ and plans
+
+- [Zulma+ and plans](https://help.zulma.ca/plans/overview.md): Your Homesake is free: every home's record, documents, plan and Atlas. Zulma+ costs $9.99 a month or $99 a year before HST and adds more room and more reach: 50 GB, folders and PDF search, and up to 25 projects out for quotes at once.
+- [What Zulma+ includes](https://help.zulma.ca/plans/what-zulma-plus-includes.md): Zulma+ costs $9.99 a month or $99 a year before HST. It adds 50 GB of space, folders and search inside PDFs, more AI use, and up to 25 projects out for quotes at once. Monthly starts with a free week, yearly with two.
+- [Cancel or pause Zulma+](https://help.zulma.ca/plans/cancel-zulma-plus.md): Open You, then Membership. Select Cancel Zulma+ to cancel, with a full refund within 14 days of paying. A monthly plan can be paused once a year. You can also switch between monthly and yearly, change your card and see receipts.
+
+### Account and privacy
+
+- [Account and privacy](https://help.zulma.ca/account/overview.md): Your Zulma account holds your homes, your settings and your data. Share a home with family or a business, choose what Zulma tells you about, get a copy of your data or delete your account. Your notes, access codes and money are never shared with a business.
+- [Share your home](https://help.zulma.ca/account/share-your-home.md): In My Home, open Sharing. Invite a person as a Co-owner, Helper, Family or Viewer, or share the parts of your home you pick with a business for as long as you choose. Your notes, access codes and money are never shared with a business.
+- [Settings](https://help.zulma.ca/account/settings.md): In Zulma, open Settings to choose light or dark, what Zulma tells you about and whether by push, email or text, marketing emails, AI reading of your documents, and to sign out on every device. Your own details are under You.
+- [Download your data](https://help.zulma.ca/account/download-your-data.md): In Zulma, open Settings and select Download my data. It opens an email to hello@zulma.ca asking for a copy of your bookings and account. Send it from the email on your account, and Zulma sends the copy to you.
+- [Delete your account](https://help.zulma.ca/account/delete-your-account.md): In Zulma, open Settings and select Delete my account, then Yes, delete my account. Your account closes at once. Sign back in within 30 days to cancel. After 30 days your personal information is permanently anonymized. Receipts are kept for 7 years, as the CRA requires.
+- [Contact Zulma](https://help.zulma.ca/account/contact-zulma.md): Email Zulma at hello@zulma.ca. Zulma is made by Zulma Resources Inc., operating as Zulma Real Estate, in Thorold, Ontario.
+
+## For Zulma Pros
+
+Guides for cleaners who work through the Zulma Pro app. Homeowners don't need these.
+
+### Join Zulma
+
+- [Work as a Zulma Pro](https://help.zulma.ca/cleaners/overview.md): Apply to become a Zulma Pro. Set your own schedule, see every payout before you accept, keep 70% of the job plus 100% of tips, and get paid to your own payout account.
+- [Requirements to become a Zulma Pro](https://help.zulma.ca/cleaners/requirements.md): What you need before you apply: eligibility, identity verification, background check, insurance, and equipment, plus how service areas work.
+- [How to apply and get approved as a Zulma Pro](https://help.zulma.ca/cleaners/apply.md): Apply online, verify your identity, and pass a background check to get approved. Then add your own insurance and police check before your first job, and accept jobs in the Pro app.
+- [Identity and background checks](https://help.zulma.ca/cleaners/identity-and-checks.md): How Zulma verifies your government ID and runs a background check before you take jobs.
+- [Your $2M insurance](https://help.zulma.ca/cleaners/insurance-requirements.md): The $2,000,000 commercial general liability coverage you carry as an independent Zulma Pro: what it is, when you need it, what a valid certificate has to show, and how to get covered quickly.
+- [Vulnerable sector police check](https://help.zulma.ca/cleaners/police-check.md): The vulnerable sector police check you provide before your first in-home job: what it is, where to book it, what it costs, and how often to renew.
+- [WHMIS 2015 training](https://help.zulma.ca/cleaners/whmis.md): The workplace chemical-safety training you provide before your first job if you handle cleaning chemicals: what it is, who needs it, and how to get certified.
+
+### On the job
+
+- [Getting Your First Job](https://help.zulma.ca/cleaners/getting-your-first-job.md): How dispatch works at Zulma: go online for instant jobs or declare your weekly availability, accept a single offer in about 60 seconds, and start scheduled jobs within 60 minutes of the start time.
+- [On the job](https://help.zulma.ca/cleaners/on-the-job.md): How a job moves from accepted to completed in the Zulma Pro app, what background location does, and how to mark a clean done.
+- [Cancelling a job](https://help.zulma.ca/cleaners/cancellations.md): Sometimes you have to cancel a job you accepted. Here is how to do it in the app, what reason to pick, when to attach a photo, and why a no-fault cancellation backed by evidence is handled without penalty.
+
+### Earnings
+
+- [How pay works for Pros](https://help.zulma.ca/cleaners/how-pay-works.md): What you keep on every job, how tips work, and how payouts reach your account.
+- [Taxes and payouts for Pros](https://help.zulma.ca/cleaners/taxes-and-payouts.md): How you get paid through Stripe Express, what you keep on every job, and what being an independent contractor means for your taxes and equipment.
+- [Pro referral bonuses](https://help.zulma.ca/cleaners/bonuses.md): Refer another Pro to Zulma and you both earn up to $200 as they get going, paid automatically to your payout account. Here is exactly how the milestones work.
+
+### Help
+
+- [Pro FAQ](https://help.zulma.ca/cleaners/faq.md): Quick answers for Zulma Pros: how you get jobs, when and how you are paid, the insurance you need, what to bring, your contractor status and taxes, working more than one service, cancellations, and the referral bonus.
