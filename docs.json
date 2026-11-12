@@ -328,6 +328,13 @@
             ]
           },
           {
+            "group": "Zu",
+            "pages": [
+              "zu/what-can-zu-do",
+              "zu/draft-a-project-with-zu"
+            ]
+          },
+          {
             "group": "Zulma+ and plans",
             "pages": [
               "plans/what-zulma-plus-includes",
