@@ -466,6 +466,13 @@
             ]
           },
           {
+            "group": "Today",
+            "icon": "sun",
+            "pages": [
+              "pro/today/overview"
+            ]
+          },
+          {
             "group": "Team and plan",
             "icon": "users",
             "pages": [
