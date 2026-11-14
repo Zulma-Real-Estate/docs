@@ -2,22 +2,32 @@
 title: "Today"
 sidebarTitle: "Overview"
 noindex: true
-keywords: ["Zulma Pro Today", "Zulma Pro dashboard", "act now", "quote requests waiting", "business performance"]
-description: "What needs you now, and how the business is doing."
+keywords: ["Zulma Pro Today", "Zulma Pro dashboard", "act now", "today's schedule", "business performance"]
+description: "What needs you now, the day's work and how the business is doing."
 ---
 
-Zulma Pro opens here. Trades that work outside also see the weather.
+import { Shot } from '/snippets/shot.jsx';
+
+Zulma Pro opens here. Trades that work outside also see the weather beside the greeting, and **Create** sits top right.
+
+<Shot name="pro/today" alt="Today in Zulma Pro: the work tiles, today's schedule, Act now and business performance" />
 
 ## Your work
 
-Two tiles at the top follow your work from request to quote. Select a count to open that list, or the arrow to open the whole page.
+Four tiles follow a job from request to paid. Select a count to open that list, or the arrow to open the whole page.
 
 | Tile | Counts |
 | --- | --- |
 | Requests | New, Needs approval, Overdue |
 | Quotes | Approved, Draft, Changes requested |
+| Jobs | Requires invoicing, Active, Action required |
+| Invoices | Awaiting payment, Draft, Past due |
 
-A tile lights up when something in it waits on you, such as a new request or a homeowner asking for changes.
+A tile lights up when something in it waits on you.
+
+## Today's schedule
+
+The day's jobs and site visits, one lane for each person, with a mark for every hour. Each shows **Booked**, **Underway**, **Late** or **Done**, and its value. Select one to open it, or **View schedule** for the full calendar.
 
 ## Act now
 
@@ -25,26 +35,24 @@ One list of what needs you, the most urgent first. Each row has its own button.
 
 | What | Button |
 | --- | --- |
+| A job that started with nobody on the way | **Open** |
 | A request about to close, with the hours left | **Answer** |
 | An accepted quote waiting for your signature | **Sign** |
 | A homeowner wrote and nobody has read it | **Open messages** |
 | An invoice past its due date | **Open** |
-| A quote opened 3 days ago with no answer | **Follow up** |
+| A quote opened with no answer yet | **Follow up** |
 | Something your quote requests need, such as a certificate that ends soon | **Open** |
 
-Account items join the list too: a card that didn't go through, a fee owed on a cancelled job, a yearly plan about to renew, and an owner who hasn't taken the owner seat.
+A quote waits 3 days before it asks for a follow up. You can change that in [Settings](/pro/team-and-plan/settings). Account items join the list too: invoices ready to send, a card that didn't go through, a yearly plan about to renew, and an owner who hasn't taken the owner seat.
 
 Five rows show at a time. Select **View all** to see the rest.
-
-## Today's schedule
-
-Site visits booked for today, in time order, one lane for each person going. Each visit shows **Booked**, **Underway**, **Late** or **Done**.
 
 ## Business performance
 
 Select a figure to open its report.
 
 - **Receivables**: what customers still owe you, and how many owe it
+- **Upcoming jobs**: the value of this week's work
 - **Revenue**: what you've invoiced this month, before tax
 
 ## Who sees what
@@ -55,4 +63,4 @@ Select a figure to open its report.
 | Dispatcher | Everything but money |
 | Crew member | Their own day |
 
-On a phone, a line under the greeting opens the **Setup guide** until setup is done. On a computer, the guide sits at the bottom right of every page.
+Agents, lawyers, mortgage and insurance businesses see Act now only. On a phone, a line under the greeting opens the **Setup guide** until setup is done. On a computer, the guide sits at the bottom right of every page.
