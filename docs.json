@@ -488,7 +488,7 @@
           },
           {
             "group": "Customers and Inbox",
-            "icon": "address-book",
+            "icon": "contact",
             "pages": [
               "pro/customers-and-inbox/customers",
               "pro/customers-and-inbox/add-a-client",
