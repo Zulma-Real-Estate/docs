@@ -466,10 +466,75 @@
             ]
           },
           {
+            "group": "Today",
+            "icon": "sun",
+            "pages": [
+              "pro/today/overview"
+            ]
+          },
+          {
+            "group": "Requests and quotes",
+            "icon": "inbox",
+            "pages": [
+              "pro/requests-and-quotes/requests",
+              "pro/requests-and-quotes/answer-a-request",
+              "pro/requests-and-quotes/new-request",
+              "pro/requests-and-quotes/send-a-quote",
+              "pro/requests-and-quotes/site-visits",
+              "pro/requests-and-quotes/sign-the-agreement",
+              "pro/requests-and-quotes/quotes",
+              "pro/requests-and-quotes/request-form-and-sharing"
+            ]
+          },
+          {
+            "group": "Customers and Inbox",
+            "icon": "contact",
+            "pages": [
+              "pro/customers-and-inbox/customers",
+              "pro/customers-and-inbox/add-a-client",
+              "pro/customers-and-inbox/client-page",
+              "pro/customers-and-inbox/shared-homes",
+              "pro/customers-and-inbox/inbox",
+              "pro/customers-and-inbox/import"
+            ]
+          },
+          {
+            "group": "Jobs",
+            "icon": "calendar-check",
+            "pages": [
+              "pro/jobs/jobs",
+              "pro/jobs/new-job",
+              "pro/jobs/job-page",
+              "pro/jobs/checklists"
+            ]
+          },
+          {
+            "group": "Money",
+            "icon": "wallet",
+            "pages": [
+              "pro/money/money",
+              "pro/money/invoices",
+              "pro/money/send-an-invoice",
+              "pro/money/reports"
+            ]
+          },
+          {
+            "group": "Your listing",
+            "icon": "store",
+            "pages": [
+              "pro/your-listing/listing",
+              "pro/your-listing/services",
+              "pro/your-listing/promotions"
+            ]
+          },
+          {
             "group": "Team and plan",
             "icon": "users",
             "pages": [
-              "pro/team-and-plan/plans-and-billing"
+              "pro/team-and-plan/team",
+              "pro/team-and-plan/plans-and-billing",
+              "pro/team-and-plan/connected-apps",
+              "pro/team-and-plan/settings"
             ]
           }
         ]

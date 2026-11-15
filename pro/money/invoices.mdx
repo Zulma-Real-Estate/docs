@@ -1,0 +1,43 @@
+---
+title: "Invoices"
+sidebarTitle: "Invoices"
+noindex: true
+keywords: ["Zulma Pro invoices", "past due invoices", "batch create invoices", "batch deliver invoices", "bad debt", "needs invoicing"]
+description: "Every invoice for your own clients, and the drafts made for you."
+---
+
+import { Shot } from '/snippets/shot.jsx';
+
+Invoices sits under **Your customers** in the menu, for the owner and admins.
+
+<Shot name="pro/invoices" alt="The Invoices list in Zulma Pro" />
+
+## The tiles
+
+The Overview tile shows what's **Past due**, **Sent, not yet due** and in **Draft**, with the amounts. The other tiles count **All**, **Waiting to be paid**, **Overdue**, **Drafts**, **Paid** and **Cancelled**.
+
+## The list
+
+Search by client or number. Sort by newest, total, due date or client.
+
+| Status | Means |
+| --- | --- |
+| Draft | Not sent yet |
+| Waiting to be paid | Sent, within its due date |
+| Partly paid | Some paid, some left |
+| Overdue | Past its due date with something owed |
+| Paid | Paid in full |
+| Cancelled | Its pay link says there is nothing to pay |
+| Bad debt | Written off |
+
+## Drafts made for you
+
+A job makes its own drafts, by how you bill it: after a visit, when the job closes, or when a scheduled payment comes due. Nothing goes to your client until you check it and send it. Today and Money show how many are ready.
+
+## More
+
+<Shot name="pro/invoice-batch" alt="Batch create invoices in Zulma Pro" />
+
+- **Batch create invoices**: pick finished jobs not invoiced yet, or a list of clients with the same lines. Then **Create** the drafts.
+- **Batch deliver invoices**: pick drafts, or sent invoices still unpaid, then **Review** and **Send**. Unpaid ones get a reminder.
+- **Import invoice data**. See [Import](/pro/customers-and-inbox/import#invoices).
