@@ -451,8 +451,6 @@
       },
       {
         "tab": "Zulma Pro",
-        "hidden": true,
-        "searchable": false,
         "groups": [
           {
             "group": "Get started",

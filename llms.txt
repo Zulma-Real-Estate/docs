@@ -84,3 +84,64 @@ Guides for the Zulma home app.
 - [Download your data](https://help.zulma.ca/account/download-your-data.md): In Zulma, open Settings and select Download my data. It opens an email to hello@zulma.ca asking for a copy of your bookings and account. Send it from the email on your account, and Zulma sends the copy to you.
 - [Delete your account](https://help.zulma.ca/account/delete-your-account.md): In Zulma, open Settings and select Delete my account, then Yes, delete my account. Your account closes at once. Sign back in within 30 days to cancel. After 30 days your personal information is permanently anonymized. Receipts are kept for 7 years, as the CRA requires.
 - [Contact Zulma](https://help.zulma.ca/account/contact-zulma.md): Email Zulma at hello@zulma.ca from the email on your account, so Zulma can find it. What to write for a copy of your data, deleting your account, changing your email or help with a booking.
+
+## Zulma Pro
+
+### Get started
+
+- [Zulma Pro](https://help.zulma.ca/pro/get-started/overview.md): Requests, quotes, customers, jobs and invoices in one place.
+- [Create your account](https://help.zulma.ca/pro/get-started/create-your-account.md): Sign up, find your business and switch on quote requests.
+- [Get verified](https://help.zulma.ca/pro/get-started/get-verified.md): What Zulma checks before your business can get quote requests.
+- [Getting around](https://help.zulma.ca/pro/get-started/getting-around.md): Today, the menu, Create and who sees what.
+- [Zulma Pro FAQ](https://help.zulma.ca/pro/get-started/faq.md): Fees, contact details, locations and closing your account.
+
+### Today
+
+- [Today](https://help.zulma.ca/pro/today/overview.md): What needs you now, the day's work and how the business is doing.
+
+### Requests and quotes
+
+- [Requests](https://help.zulma.ca/pro/requests-and-quotes/requests.md): Every request in one list, from Atlas and from your own clients.
+- [Answer a request](https://help.zulma.ca/pro/requests-and-quotes/answer-a-request.md): Quote a homeowner's request from Atlas, or pass on it.
+- [Add a request by hand](https://help.zulma.ca/pro/requests-and-quotes/new-request.md): Log work one of your own clients asked for.
+- [Send a quote](https://help.zulma.ca/pro/requests-and-quotes/send-a-quote.md): Price the work, set the terms and send it.
+- [Site visits](https://help.zulma.ca/pro/requests-and-quotes/site-visits.md): See the job before you price it.
+- [Sign the agreement](https://help.zulma.ca/pro/requests-and-quotes/sign-the-agreement.md): Sign once they accept, and what happens to the deposit.
+- [Quotes](https://help.zulma.ca/pro/requests-and-quotes/quotes.md): Every quote you've drafted or sent, and where each one stands.
+- [Your request form](https://help.zulma.ca/pro/requests-and-quotes/request-form-and-sharing.md): Choose what homeowners answer, and share your link.
+
+### Customers and Inbox
+
+- [Customers](https://help.zulma.ca/pro/customers-and-inbox/customers.md): Everyone you work for, in one list.
+- [Add a client](https://help.zulma.ca/pro/customers-and-inbox/add-a-client.md): Add a client, keep your own fields on them, and merge doubles.
+- [A client's page](https://help.zulma.ca/pro/customers-and-inbox/client-page.md): Everything you've done for one client.
+- [Homes shared with you](https://help.zulma.ca/pro/customers-and-inbox/shared-homes.md): See and update the parts of a home a homeowner shares with you.
+- [Inbox](https://help.zulma.ca/pro/customers-and-inbox/inbox.md): Every conversation with homeowners and clients in one place.
+- [Import](https://help.zulma.ca/pro/customers-and-inbox/import.md): Bring your clients, prices, jobs and invoices over from a spreadsheet.
+
+### Jobs
+
+- [Jobs](https://help.zulma.ca/pro/jobs/jobs.md): Every job for your own clients, sorted by what needs doing.
+- [Add a job](https://help.zulma.ca/pro/jobs/new-job.md): Put work on the calendar, once or on repeat.
+- [A job's page](https://help.zulma.ca/pro/jobs/job-page.md): Visits, costs, payments and invoices for one job.
+- [Checklists](https://help.zulma.ca/pro/jobs/checklists.md): Lists your team works through on a visit.
+
+### Money
+
+- [Money](https://help.zulma.ca/pro/money/money.md): What you're owed, what came in and what reached your bank.
+- [Invoices](https://help.zulma.ca/pro/money/invoices.md): Every invoice for your own clients, and the drafts made for you.
+- [Send an invoice](https://help.zulma.ca/pro/money/send-an-invoice.md): Bill a client, take payment and handle what comes after.
+- [Reports](https://help.zulma.ca/pro/money/reports.md): How the business is doing, report by report.
+
+### Your listing
+
+- [Your listing](https://help.zulma.ca/pro/your-listing/listing.md): Your page on Atlas, and what you can change on it.
+- [Services](https://help.zulma.ca/pro/your-listing/services.md): Your usual prices, ready to drop into a quote.
+- [Promotions](https://help.zulma.ca/pro/your-listing/promotions.md): A saving on your services, shown on your listing while it runs.
+
+### Team and plan
+
+- [Team](https://help.zulma.ca/pro/team-and-plan/team.md): Who works here, and what each person can do.
+- [Plans and billing](https://help.zulma.ca/pro/team-and-plan/plans-and-billing.md): Plans, people and the fee on card payments.
+- [Connected apps](https://help.zulma.ca/pro/team-and-plan/connected-apps.md): Send customers from Zulma into the app you already use.
+- [Settings](https://help.zulma.ca/pro/team-and-plan/settings.md): How new work starts, how quotes become jobs, and your account.
